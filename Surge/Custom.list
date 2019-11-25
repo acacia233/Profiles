@@ -1,2 +1,6 @@
 # > DIRECT Websites
 DOMAIN-SUFFIX,hostloc.com
+# > bilibili
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,live.bilibili.com
