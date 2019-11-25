@@ -1,2 +1,4 @@
 # > bilibili HK/TW Unblock
-DOMAIN-SUFFIX,api.bilibili.com
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,hdslb.com,DIRECT
+DOMAIN-SUFFIX,acgvideo.com,DIRECT
