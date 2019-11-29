@@ -6,9 +6,7 @@ DOMAIN-SUFFIX,doubanio.com
 # > ZAKER
 USER-AGENT,*ZAKER*
 # > bilibili
-DOMAIN,api.live.bilibili.com
-DOMAIN,api.vc.bilibili.com
-DOMAIN,live-trace.bilibili.com
+DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,acgvideo.com
