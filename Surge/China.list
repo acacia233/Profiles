@@ -1,0 +1,5 @@
+# > douban
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,doubanio.com
+# > ZAKER
+USER-AGENT,*ZAKER*
