@@ -12,5 +12,5 @@ DOMAIN-SUFFIX,live.bilibili.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 # > bilibili-comic
 USER-AGENT,comic-universal*
-# > QQ
+# > qq
 DOMAIN-SUFFIX,qq.com
