@@ -4,6 +4,6 @@ DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,live.bilibili.com
-upos-hz-mirrorakam.akamaized.net
+DOMAIN,upos-hz-mirrorakam.akamaized.net
 # > bilibili漫画
 USER-AGENT,comic-universal*
