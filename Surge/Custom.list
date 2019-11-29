@@ -4,3 +4,5 @@ DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,live.bilibili.com
+# > bilibili漫画
+USER-AGENT,comic-universal*
