@@ -16,4 +16,5 @@ USER-AGENT,comic-universal*
 # > qq
 DOMAIN-SUFFIX,qq.com
 # > apple
+DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
