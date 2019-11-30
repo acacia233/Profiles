@@ -3,4 +3,5 @@ DOMAIN,ulogs.umengcloud.com
 DOMAIN,v.admaster.com.cn
 DOMAIN,admusicpic.music.126.net
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
+URL-REGEX,^http?:\/\/115.236.118.33\/eapi\/ad
 URL-REGEX,^https?:\/\/interface\.music\.163\.com\/eapi\/ad
