@@ -18,3 +18,7 @@ DOMAIN-SUFFIX,qq.com
 # > apple
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
+# > ali
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,aliyun.com
