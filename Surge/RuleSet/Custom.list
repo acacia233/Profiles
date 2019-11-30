@@ -1,9 +1,0 @@
-# > 直连网站
-DOMAIN-SUFFIX,hostloc.com
-# > bilibili
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,live.bilibili.com
-DOMAIN,upos-hz-mirrorakam.akamaized.net
-# > bilibili漫画
-USER-AGENT,comic-universal*
