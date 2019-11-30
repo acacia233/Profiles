@@ -5,5 +5,6 @@ DOMAIN,v.admaster.com.cn
 DOMAIN,jice.admaster.com.cn
 DOMAIN,admusicpic.music.126.net
 DOMAIN,adashx.m.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 URL-REGEX,^https?:\/\/interface\d\.music\.163\.com\/eapi\/ad
