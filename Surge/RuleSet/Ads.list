@@ -1,2 +1,4 @@
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
+DOMAIN,v.admaster.com.cn
+URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
