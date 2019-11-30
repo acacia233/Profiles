@@ -1,5 +1,6 @@
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
 DOMAIN,v.admaster.com.cn
+DOMAIN,admusicpic.music.126.net
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 URL-REGEX,^https?:\/\/interface\.music\.163\.com\/eapi\/ad
