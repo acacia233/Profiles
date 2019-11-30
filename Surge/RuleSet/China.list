@@ -15,3 +15,5 @@ DOMAIN,upos-hz-mirrorakam.akamaized.net
 USER-AGENT,comic-universal*
 # > qq
 DOMAIN-SUFFIX,qq.com
+# > apple
+DOMAIN-SUFFIX,apple.com
