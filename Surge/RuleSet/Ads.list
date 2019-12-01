@@ -2,11 +2,15 @@ DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,analytics
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
+DOMAIN,msg.umengcloud.com,REJECT
+DOMAIN,plbslog.umeng.com,REJECT
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adashx.m.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,v.admaster.com.cn
 DOMAIN,jice.admaster.com.cn
 DOMAIN,admusicpic.music.126.net
-DOMAIN,adashx.m.taobao.com
-DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,cmask.bilibili.com
 DOMAIN,ios.bugly.qq.com
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
