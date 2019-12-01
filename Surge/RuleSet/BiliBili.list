@@ -1,2 +1,2 @@
 # > bilibili HK/TW/MO Unblock
-DOMAIN,api.bilibili.com
+URL-REGEX,https://api.bilibili.com/pgc
