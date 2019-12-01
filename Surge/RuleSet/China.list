@@ -27,3 +27,5 @@ DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,alibabausercontent.com
+# > research
+DOMAIN-SUFFIX,cnki.net
