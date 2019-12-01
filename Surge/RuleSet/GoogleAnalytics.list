@@ -1,3 +1,2 @@
 # > Google Analytics
-DOMAIN-SUFFIX,www.googleapis.com
-DOMAIN-SUFFIX,analyticsreporting.googleapis.com
+USER-AGENT,com.google.Analytics*
