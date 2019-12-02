@@ -1,6 +1,7 @@
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,analytics
 DOMAIN,ulogs.umeng.com
+DOMAIN,hmma.baidu.com
 DOMAIN,ulogs.umengcloud.com
 DOMAIN,msg.umengcloud.com,REJECT
 DOMAIN,plbslog.umeng.com,REJECT
@@ -13,5 +14,7 @@ DOMAIN,jice.admaster.com.cn
 DOMAIN,admusicpic.music.126.net
 DOMAIN,cmask.bilibili.com
 DOMAIN,ios.bugly.qq.com
+DOMAIN,googleads.g.doubleclick.net
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 URL-REGEX,^https?:\/\/interface\d\.music\.163\.com\/eapi\/ad
+URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
