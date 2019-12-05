@@ -1,0 +1,3 @@
+# > zhihu Wechat
+DOMAIN,pgdt.gtimg.cn
+URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad
