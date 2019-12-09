@@ -1,2 +1,4 @@
 # > ZAKER Pro Fix
 AND,((DEST-PORT,80), (DOMAIN,v.admaster.com.cn)),DIRECT
+# > Looking glass
+DOMAIN-KEYWORD,lg
