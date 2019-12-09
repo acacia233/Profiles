@@ -1,5 +1,5 @@
 # > zhihu Wechat
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,wxsnsdythumb.wxs.qq.com
-URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad
 URL-REGEX,https://api.zhihu.com/wx-minapp-push/related-minapps
+URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad
