@@ -1,4 +1,4 @@
-# > zhihu Wechat
+# > zhihu Wechat miniapp
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,wxsnsdythumb.wxs.qq.com
 URL-REGEX,https://api.zhihu.com/wx-minapp-push/related-minapps
