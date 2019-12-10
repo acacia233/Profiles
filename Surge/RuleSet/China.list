@@ -2,11 +2,13 @@
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,edu.cn
-# > douban
-DOMAIN-SUFFIX,douban.com
-DOMAIN-SUFFIX,doubanio.com
-# > ZAKER
-USER-AGENT,*ZAKER*
+# > apple
+DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,crashlytics.com
+USER-AGENT,com.apple.trustd*
 # > bilibili
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biliapi.com
@@ -17,12 +19,6 @@ DOMAIN,upos-hz-mirrorakam.akamaized.net
 USER-AGENT,comic-universal*
 # > qq
 DOMAIN-SUFFIX,qq.com
-# > apple
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,crashlytics.com
 # > ali
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,alipay.com
