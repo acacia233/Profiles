@@ -24,7 +24,18 @@ DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,gtimg.cn
 # > ali
 DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-KEYWORD,alicdn
+# >
+DOMAIN-SUFFIX,sogou.com
+DOMAIN-SUFFIX,sm.cn
+DOMAIN-SUFFIX,yidianzixun.com
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,10086.cn
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,youku.com
