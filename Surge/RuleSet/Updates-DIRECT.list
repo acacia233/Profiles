@@ -1,5 +1,3 @@
-# > ZAKER Pro Fix
-AND,((USER-AGENT,ZAKER*), (DOMAIN,v.admaster.com.cn))
 # > Looking glass
 DOMAIN-KEYWORD,lg
 DOMAIN-KEYWORD,ping
