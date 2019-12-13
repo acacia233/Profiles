@@ -16,6 +16,7 @@ DOMAIN,adashx.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
 
 DOMAIN,iadmusicmat.music.126.net
+DOMAIN,iadmat.nosdn.127.net
 DOMAIN,admusicpic.music.126.net
 
 DOMAIN,v.admaster.com.cn
@@ -32,5 +33,6 @@ DOMAIN,cdn-adn-https-baidu.rayjump.com
 DOMAIN,googleads.g.doubleclick.net
 
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
-URL-REGEX,^https?:\/\/interface\d\.music\.163\.com\/eapi\/ad
 URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
+URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
+
