@@ -21,6 +21,7 @@ DOMAIN,upos-hz-mirrorakam.akamaized.net
 USER-AGENT,comic-universal*
 # > qq
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,gtimg.cn
 # > ali
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,alipay.com
