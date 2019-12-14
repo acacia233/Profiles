@@ -4,6 +4,8 @@ DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,edu.cn
 # > NeteaseMusic
 DOMAIN,wfd.netease.im
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.net
 # > apple
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
@@ -31,6 +33,7 @@ DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-KEYWORD,alicdn
 # >
+USER-AGENT,ZAKER*
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,sm.cn
 DOMAIN-SUFFIX,yidianzixun.com
@@ -40,4 +43,9 @@ DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,sparke.cn
+DOMAIN-SUFFIX,fliggy.com
+DOMAIN-SUFFIX,ctrip.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,netease.com
 DOMAIN-KEYWORD,maimemo
