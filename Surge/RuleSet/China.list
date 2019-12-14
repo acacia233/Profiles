@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,crashlytics.com
 USER-AGENT,com.apple.trustd*
+USER-AGENT,cloudd*
 # > bilibili
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biliapi.com
@@ -39,3 +40,4 @@ DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,youku.com
+DOMAIN-KEYWORD,maimemo
