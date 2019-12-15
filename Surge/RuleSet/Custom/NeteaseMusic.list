@@ -10,6 +10,5 @@
 #IP-CIDR,193.112.159.225/32,no-resolve
 #IP-CIDR,223.252.192.0/19,no-resolve
 
-# MITM music.163.com
 URL-REGEX,^https?:\/\/music\.163\.com\/package
-URL-REGEX,\/eapi\/(album|song)
+URL-REGEX,\/eapi\/(album|song|v6|playlist|content)
