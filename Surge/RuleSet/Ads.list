@@ -1,6 +1,8 @@
 DOMAIN-KEYWORD,analytics
 DOMAIN-KEYWORD,advertise
 
+DOMAIN,app-measurement.com
+
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
 DOMAIN,msg.umengcloud.com
@@ -33,6 +35,9 @@ DOMAIN,ws.tapjoyads.com
 DOMAIN,adx-tk.rayjump.com
 DOMAIN,event3alt.adcolony.com
 DOMAIN,cdn-adn-https-baidu.rayjump.com
+DOMAIN,rv-gateway.supersonicads.com
+DOMAIN,outcome-ssp.supersonicads.com
+
 
 DOMAIN,googleads.g.doubleclick.net
 
