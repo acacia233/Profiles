@@ -1,2 +1,2 @@
 # > bilibili HK/TW/MO Unblock
-URL-REGEX,https://api.bilibili.com/pgc/view
+URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/(view|player)
