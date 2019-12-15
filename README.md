@@ -2,4 +2,4 @@
 
 ## 感谢：
 
--[神机规则](https://github.com/ConnersHua/Profiles/tree/master)
+[神机规则](https://github.com/ConnersHua/Profiles/tree/master)
