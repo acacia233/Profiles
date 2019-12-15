@@ -38,6 +38,10 @@ DOMAIN,googleads.g.doubleclick.net
 
 DOMAIN,ads.yahoo.com
 
+# > 
+DOMAIN,m.dyhongzhi.cn
+DOMAIN,i.luyongkang.top
+
 URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
