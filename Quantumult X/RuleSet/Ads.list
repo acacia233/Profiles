@@ -51,3 +51,4 @@ URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
 URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
+
