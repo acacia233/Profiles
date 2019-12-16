@@ -11,4 +11,6 @@ AND,((USER-AGENT,osee2*), (NOT,((DOMAIN,api.zhihu.com))), (NOT,((DOMAIN,lens.zhi
 URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square))
 URL-REGEX,https://api.bilibili.com/x/v2/dm/advert
 AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))))
+# >
+URL-REGEX,^https?:\/\/hmma\.baidu\.com\/app\.gif
 
