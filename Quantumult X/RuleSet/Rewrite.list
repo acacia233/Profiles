@@ -10,3 +10,8 @@ URL-REGEX,https://api.zhihu.com/(ab|adx|fringe|drama|zst|commercial|ad-style-ser
 URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)) url reject-img
 URL-REGEX,https://api.bilibili.com/x/v2/dm/advert url reject-img
 
+URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
+URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
+URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
+URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
+

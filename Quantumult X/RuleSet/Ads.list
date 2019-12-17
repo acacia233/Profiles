@@ -8,47 +8,43 @@ DOMAIN,ulogs.umengcloud.com,reject
 DOMAIN,msg.umengcloud.com,reject
 DOMAIN,plbslog.umeng.com,reject
 
-DOMAIN,hm.baidu.com
-DOMAIN,hmma.baidu.com
-DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN,hm.baidu.com,reject
+DOMAIN,hmma.baidu.com,reject
+DOMAIN-SUFFIX,pos.baidu.com,reject
 
-DOMAIN,puui.qpic.cn
-DOMAIN,mtteve.beacon.qq.com
+DOMAIN,puui.qpic.cn,reject
+DOMAIN,mtteve.beacon.qq.com,reject
 
-DOMAIN,adashxgc.ut.taobao.com
-DOMAIN,adashbc.ut.taobao.com
-DOMAIN,adashx.m.taobao.com
-DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,adashxgc.ut.taobao.com,reject
+DOMAIN,adashbc.ut.taobao.com,reject
+DOMAIN,adashx.m.taobao.com,reject
+DOMAIN,h-adashx.ut.taobao.com,reject
 
-DOMAIN,iadmusicmat.music.126.net
-DOMAIN,iadmat.nosdn.127.net
-DOMAIN,admusicpic.music.126.net
+DOMAIN,iadmusicmat.music.126.net,reject
+DOMAIN,iadmat.nosdn.127.net,reject
+DOMAIN,admusicpic.music.126.net,reject
 
-DOMAIN,v.admaster.com.cn
-DOMAIN,jice.admaster.com.cn
+DOMAIN,v.admaster.com.cn,reject
+DOMAIN,jice.admaster.com.cn,reject
 
-DOMAIN,ios.bugly.qq.com
-DOMAIN,adsmind.apdcdn.tc.qq.com
-DOMAIN-SUFFIX,pingma.qq.com
+DOMAIN,ios.bugly.qq.com,reject
+DOMAIN,adsmind.apdcdn.tc.qq.com,reject
+DOMAIN-SUFFIX,pingma.qq.com,reject
 
-DOMAIN,ws.tapjoyads.com
-DOMAIN,adx-tk.rayjump.com
-DOMAIN,event3alt.adcolony.com
-DOMAIN,cdn-adn-https-baidu.rayjump.com
-DOMAIN,rv-gateway.supersonicads.com
-DOMAIN,outcome-ssp.supersonicads.com
+DOMAIN,ws.tapjoyads.com,reject
+DOMAIN,adx-tk.rayjump.com,reject
+DOMAIN,event3alt.adcolony.com,reject
+DOMAIN,cdn-adn-https-baidu.rayjump.com,reject
+DOMAIN,rv-gateway.supersonicads.com,reject
+DOMAIN,outcome-ssp.supersonicads.com,reject
 
 
-DOMAIN,googleads.g.doubleclick.net
+DOMAIN,googleads.g.doubleclick.net,reject
 
-DOMAIN,ads.yahoo.com
+DOMAIN,ads.yahoo.com,reject
 
 # > 
-DOMAIN,m.dyhongzhi.cn
-DOMAIN,i.luyongkang.top
+DOMAIN,m.dyhongzhi.cn,reject
+DOMAIN,i.luyongkang.top,reject
 
-URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
-URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
-URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
-URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
 
