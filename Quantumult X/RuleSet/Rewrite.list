@@ -1,4 +1,4 @@
-hostname=api.douban.com,api2.sparke.cn,api.zhihu.com
+hostname = api.douban.com, api2.sparke.cn, api.zhihu.com
 
 # > zhihu Wechat miniapp
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/related\-minapps url reject-img
