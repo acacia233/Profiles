@@ -1,2 +1,2 @@
 # > Google Analytics
-USER-AGENT,com.google.Analytics*
+USER-AGENT,com.google.Analytics*,PROXY
