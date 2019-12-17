@@ -47,6 +47,3 @@ DOMAIN,ads.yahoo.com,reject
 DOMAIN,m.dyhongzhi.cn,reject
 DOMAIN,i.luyongkang.top,reject
 
-# >
-DOMAIN,pgdt.gtimg.cn url reject-img
-DOMAIN,wxsnsdythumb.wxs.qq.com url reject-img
