@@ -1,11 +1,13 @@
 hostname=api.douban.com,api2.sparke.cn,api.zhihu.com
+
 # > zhihu Wechat miniapp
-URL-REGEX,https://api.zhihu.com/wx-minapp-push/related-minapps url reject-img
-URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad url reject-img
+^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/related\-minapps url reject-img
+^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/hot\_recommendation\/ad url reject-img
 
 # >
-URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
-URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
-URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
-URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
-
+\/eapi\/(ad|banner|homepage\/show) url reject
+^https?:\/\/api\.douban\.com\/v\d\/app_ads url reject
+^https?\/\/pagead\d\.googlesyndication\.com url reject
+^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad url reject
+^https?:\/\/pgdt\.gtimg\.cn url reject-img
+^https?:\/\/wxsnsdythumb\.wxs\.qq\.com url reject-img
