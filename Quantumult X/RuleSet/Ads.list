@@ -1,12 +1,12 @@
-DOMAIN-KEYWORD,analytics
-DOMAIN-KEYWORD,advertise
+DOMAIN-KEYWORD,analytics,reject
+DOMAIN-KEYWORD,advertise,reject
 
-DOMAIN,app-measurement.com
+DOMAIN,app-measurement.com,reject
 
-DOMAIN,ulogs.umeng.com
-DOMAIN,ulogs.umengcloud.com
-DOMAIN,msg.umengcloud.com
-DOMAIN,plbslog.umeng.com
+DOMAIN,ulogs.umeng.com,reject
+DOMAIN,ulogs.umengcloud.com,reject
+DOMAIN,msg.umengcloud.com,reject
+DOMAIN,plbslog.umeng.com,reject
 
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
