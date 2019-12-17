@@ -1,50 +1,50 @@
 # > direct websites
-DOMAIN-SUFFIX,hostloc.com
-DOMAIN-SUFFIX,gov.cn
-DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,hostloc.com,DIRECT
+DOMAIN-SUFFIX,gov.cn,DIRECT
+DOMAIN-SUFFIX,edu.cn,DIRECT
 # > NeteaseMusic
-DOMAIN,wfd.netease.im
-DOMAIN-SUFFIX,163.com
-DOMAIN-SUFFIX,126.net
+DOMAIN,wfd.netease.im,DIRECT
+DOMAIN-SUFFIX,163.com,DIRECT
+DOMAIN-SUFFIX,126.net,DIRECT
 # > apple
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,crashlytics.com
-USER-AGENT,com.apple.trustd*
+DOMAIN-SUFFIX,apple.cn,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+DOMAIN-SUFFIX,crashlytics.com,DIRECT
+USER-AGENT,com.apple.trustd*,DIRECT
 USER-AGENT,cloudd*
 # > bilibili
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,bilibili.com,DIRECT
+DOMAIN-SUFFIX,biliapi.com,DIRECT
+DOMAIN-SUFFIX,hdslb.com,DIRECT
+DOMAIN-SUFFIX,acgvideo.com,DIRECT
+DOMAIN,upos-hz-mirrorakam.akamaized.net,DIRECT
 # > bilibili-comic
-USER-AGENT,comic-universal*
+USER-AGENT,comic-universal*,DIRECT
 # > qq
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,gtimg.cn,DIRECT
 # > ali
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,aliyun.com
-DOMAIN-SUFFIX,alibabausercontent.com
-DOMAIN-KEYWORD,alicdn
+DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-SUFFIX,tmall.com,DIRECT
+DOMAIN-SUFFIX,alipay.com,DIRECT
+DOMAIN-SUFFIX,aliyun.com,DIRECT
+DOMAIN-SUFFIX,alibabausercontent.com,DIRECT,DIRECT
+DOMAIN-KEYWORD,alicdn,DIRECT
 # >
-DOMAIN-SUFFIX,sogou.com
-DOMAIN-SUFFIX,sm.cn
-DOMAIN-SUFFIX,yidianzixun.com
-DOMAIN-SUFFIX,sohu.com
-DOMAIN-SUFFIX,10086.cn
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,toutiao.com
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,sparke.cn
-DOMAIN-SUFFIX,fliggy.com
-DOMAIN-SUFFIX,ctrip.com
-DOMAIN-SUFFIX,meituan.com
-DOMAIN-SUFFIX,netease.com
-DOMAIN-KEYWORD,maimemo
+DOMAIN-SUFFIX,sogou.com,DIRECT
+DOMAIN-SUFFIX,sm.cn,DIRECT
+DOMAIN-SUFFIX,yidianzixun.com,DIRECT
+DOMAIN-SUFFIX,sohu.com,DIRECT
+DOMAIN-SUFFIX,10086.cn,DIRECT
+DOMAIN-SUFFIX,iqiyi.com,DIRECT
+DOMAIN-SUFFIX,jd.com,DIRECT
+DOMAIN-SUFFIX,toutiao.com,DIRECT
+DOMAIN-SUFFIX,youku.com,DIRECT
+DOMAIN-SUFFIX,sparke.cn,DIRECT
+DOMAIN-SUFFIX,fliggy.com,DIRECT
+DOMAIN-SUFFIX,ctrip.com,DIRECT
+DOMAIN-SUFFIX,meituan.com,DIRECT
+DOMAIN-SUFFIX,netease.com,DIRECT
+DOMAIN-KEYWORD,maimemo,DIRECT
