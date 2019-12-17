@@ -13,7 +13,7 @@ DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,crashlytics.com,DIRECT
 USER-AGENT,com.apple.trustd*,DIRECT
-USER-AGENT,cloudd*
+USER-AGENT,cloudd*,DIRECT
 # > bilibili
 DOMAIN-SUFFIX,bilibili.com,DIRECT
 DOMAIN-SUFFIX,biliapi.com,DIRECT
