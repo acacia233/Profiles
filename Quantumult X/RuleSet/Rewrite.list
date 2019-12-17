@@ -1,4 +1,10 @@
-hostname=api.douban.com,api2.sparke.cn,api.zhihu.com
+hostname=api.douban.com,api2.sparke.cn,api.zhihu.com,ticktick.com,dida365.com
+
+# > Javascripts
+^https?:\/\/(dida365|ticktick)\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/acacia233/SimpleRule/master/Quantumult%20X/Js/ticktick.js
+
+# > Google
+^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 
 # > zhihu Wechat miniapp
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/related\-minapps url reject-img
