@@ -1,15 +1,9 @@
+hostname=api.douban.com,api2.sparke.cn,api.zhihu.com
 # > zhihu Wechat miniapp
-DOMAIN,pgdt.gtimg.cn url reject-img
-DOMAIN,wxsnsdythumb.wxs.qq.com url reject-img
 URL-REGEX,https://api.zhihu.com/wx-minapp-push/related-minapps url reject-img
 URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad url reject-img
-# > zhihu
-URL-REGEX,https://www.zhihu.com/api/v4/mcn/ url reject-img
-URL-REGEX,https://api.zhihu.com/(ab|adx|fringe|drama|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|featured-comment-ad)) url reject-img
-# > bilibili
-URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)) url reject-img
-URL-REGEX,https://api.bilibili.com/x/v2/dm/advert url reject-img
 
+# >
 URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
