@@ -1,6 +1,9 @@
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,yahoo
 DOMAIN-KEYWORD,amazon
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be

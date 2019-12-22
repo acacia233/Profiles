@@ -29,7 +29,6 @@ DOMAIN,jice.admaster.com.cn,reject
 
 DOMAIN,ios.bugly.qq.com,reject
 DOMAIN,adsmind.apdcdn.tc.qq.com,reject
-DOMAIN-SUFFIX,pingma.qq.com,reject
 
 DOMAIN,ws.tapjoyads.com,reject
 DOMAIN,adx-tk.rayjump.com,reject
