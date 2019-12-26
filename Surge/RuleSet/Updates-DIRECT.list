@@ -1,0 +1,2 @@
+# > Zaker（不放行就一直请求受不了了）
+AND,((USER-AGENT,ZAKER*),(DOMAIN-SUFFIX,admaster.com.cn))
