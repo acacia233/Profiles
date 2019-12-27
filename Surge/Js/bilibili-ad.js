@@ -1,4 +1,3 @@
-const p1 = "/x/v2/feed/index?access_key";
 const p1 = "/x/v2/feed/index"
 const p2 = "/x/resource/show/tab"
 const p3 = "/x/v2/view"
