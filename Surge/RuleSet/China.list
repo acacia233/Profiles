@@ -1,12 +1,9 @@
-# > direct websites
-DOMAIN-SUFFIX,hostloc.com
-DOMAIN-SUFFIX,gov.cn
-DOMAIN-SUFFIX,edu.cn
 # > NeteaseMusic
 DOMAIN,wfd.netease.im
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,126.net
-# > apple
+
+# > Apple
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
@@ -14,25 +11,35 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,crashlytics.com
 USER-AGENT,com.apple.trustd*
 USER-AGENT,cloudd*
-# > bilibili
+
+# > BiliBili
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
-# > bilibili-comic
 USER-AGENT,comic-universal*
-# > qq
+
+# > Tencent
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,gtimg.cn
-# > ali
+
+# > Alibaba
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-KEYWORD,alicdn
-# >
+
+# > Zhihu
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+
+# > 3rd Party Websites
+DOMAIN-SUFFIX,hostloc.com
+DOMAIN-SUFFIX,gov.cn
+DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,sm.cn
 DOMAIN-SUFFIX,yidianzixun.com
