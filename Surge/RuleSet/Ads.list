@@ -1,35 +1,51 @@
+# > Analytics
 DOMAIN-KEYWORD,analytics
 DOMAIN-KEYWORD,advertise
-
 DOMAIN,app-measurement.com
-
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
 DOMAIN,msg.umengcloud.com
 DOMAIN,plbslog.umeng.com
+DOMAIN,v.admaster.com.cn
+DOMAIN,jice.admaster.com.cn
 
+# > Baidu
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 
+# > Tencent
 DOMAIN,puui.qpic.cn
+DOMAIN,ios.bugly.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
 DOMAIN,mtteve.beacon.qq.com
 
+# > Alibaba
 DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,adashbc.ut.taobao.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
 
+# > Google Ad
+DOMAIN,googleads.g.doubleclick.net
+URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
+
+# > NeteaseMusic
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN,admusicpic.music.126.net
+URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
 
-DOMAIN,v.admaster.com.cn
-DOMAIN,jice.admaster.com.cn
+# > Douban
+URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 
-DOMAIN,ios.bugly.qq.com
-DOMAIN,adsmind.apdcdn.tc.qq.com
+# > Sparke English
+URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
 
+# > 3rd Party Websites
+DOMAIN,ads.yahoo.com
+DOMAIN,m.dyhongzhi.cn
+DOMAIN,i.luyongkang.top
 DOMAIN,ws.tapjoyads.com
 DOMAIN,adx-tk.rayjump.com
 DOMAIN,event3alt.adcolony.com
@@ -37,17 +53,10 @@ DOMAIN,cdn-adn-https-baidu.rayjump.com
 DOMAIN,rv-gateway.supersonicads.com
 DOMAIN,outcome-ssp.supersonicads.com
 
+# > Zhihu
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides)|.*(recommendations|commercial|featured-comment-ad|ad-style-service))
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
 
-DOMAIN,googleads.g.doubleclick.net
-
-DOMAIN,ads.yahoo.com
-
-# > 
-DOMAIN,m.dyhongzhi.cn
-DOMAIN,i.luyongkang.top
-
-URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
-URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
-URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
-URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
-
+# > BiliBili
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access
+AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,biliapi.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))))
