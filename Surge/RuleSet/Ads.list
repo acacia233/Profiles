@@ -38,6 +38,7 @@ URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
 
 # > Douban
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
+URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad
 
 # > Sparke English
 URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
