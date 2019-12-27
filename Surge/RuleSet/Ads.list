@@ -19,6 +19,7 @@ DOMAIN,puui.qpic.cn
 DOMAIN,ios.bugly.qq.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
 DOMAIN,mtteve.beacon.qq.com
+DOMAIN,wup.imtt.qq.com
 
 # > Alibaba
 DOMAIN,adashxgc.ut.taobao.com
@@ -45,6 +46,7 @@ URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
 
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com
+DOMAIN,adt.xdrig.com
 DOMAIN,m.dyhongzhi.cn
 DOMAIN,i.luyongkang.top
 DOMAIN,ws.tapjoyads.com
