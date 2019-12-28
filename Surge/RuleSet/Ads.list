@@ -15,11 +15,9 @@ DOMAIN,hmma.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 
 # > Tencent
-DOMAIN,puui.qpic.cn
 DOMAIN,ios.bugly.qq.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
 DOMAIN,mtteve.beacon.qq.com
-DOMAIN,wup.imtt.qq.com
 
 # > Alibaba
 DOMAIN,adashxgc.ut.taobao.com
