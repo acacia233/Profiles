@@ -45,7 +45,7 @@ AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFI
 
 # > BiliBili
 URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access
-AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,biliapi.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))))
+AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,biliapi.net))), (NOT,((DOMAIN-SUFFIX,hdslb.com))))
 
 # > Sparke English
 URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
