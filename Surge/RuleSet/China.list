@@ -1,6 +1,8 @@
-# > NeteaseMusic
-DOMAIN,wfd.netease.im
+# > Netease
+DOMAIN-SUFFIX,netease.im
+DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,126.net
 
 # > Apple
@@ -53,5 +55,4 @@ DOMAIN-SUFFIX,sparke.cn
 DOMAIN-SUFFIX,fliggy.com
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,meituan.com
-DOMAIN-SUFFIX,netease.com
 DOMAIN-KEYWORD,maimemo
