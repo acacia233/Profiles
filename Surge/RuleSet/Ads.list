@@ -14,9 +14,9 @@ DOMAIN,hmma.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 
 # > Tencent
-DOMAIN,ios.bugly.qq.com
-DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,adsmind.gdtimg.com
 DOMAIN,mtteve.beacon.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
 
 # > Alibaba
 DOMAIN,adashxgc.ut.taobao.com
@@ -56,6 +56,8 @@ DOMAIN,m.dyhongzhi.cn
 DOMAIN,i.luyongkang.top
 DOMAIN,ws.tapjoyads.com
 DOMAIN,adx-tk.rayjump.com
+DOMAIN,sg01.rayjump.com
+DOMAIN,cdn-adn-bd.rayjump.com
 DOMAIN,event3alt.adcolony.com
 DOMAIN,cdn-adn-https-baidu.rayjump.com
 DOMAIN,rv-gateway.supersonicads.com
