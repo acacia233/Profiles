@@ -5,6 +5,11 @@ DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,126.net
 
+# > Baidu
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bcebos.com
+DOMAIN-SUFFIX,bdimg.com
+
 # > Apple
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
@@ -58,3 +63,4 @@ DOMAIN-SUFFIX,fliggy.com
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-KEYWORD,maimemo
+USER-AGENT,ZAKER*
