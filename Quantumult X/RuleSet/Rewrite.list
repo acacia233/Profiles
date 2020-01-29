@@ -11,7 +11,7 @@ hostname=api.douban.com,api2.sparke.cn,api.zhihu.com,app.bilibili.com,dsp.edm.we
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/hot\_recommendation\/ad url reject-img
 
 # > Weibo Wechat MiniApp
-^https?:\/\/dsp\.edm\.weibo\.cn\/api\/ads reject-img
+^https?:\/\/dsp\.edm\.weibo\.cn\/api\/ads url reject-img
 
 # > 3rd Apps
 \/eapi\/(ad|banner|homepage\/show) url reject
