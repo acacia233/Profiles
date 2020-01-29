@@ -1,16 +1,19 @@
-hostname=api.douban.com,api2.sparke.cn,api.zhihu.com,app.bilibili.com
+hostname=api.douban.com,api2.sparke.cn,api.zhihu.com,app.bilibili.com,dsp.edm.weibo.cn
 
 # > Javascripts
-^https?:\/\/app\.bilibili\.com\/x\/(v2\/feed\/index|resource\/show\/tab\?access|v2\/view\?access_key|v2\/search\/square) url script-response-body https://raw.githubusercontent.com/acacia233/SimpleRule/master/Quantumult%20X/Js/bilibili-ad.js
+#^https?:\/\/app\.bilibili\.com\/x\/(v2\/feed\/index|resource\/show\/tab\?access|v2\/view\?access_key|v2\/search\/square) url script-response-body https://raw.githubusercontent.com/acacia233/SimpleRule/master/Quantumult%20X/Js/bilibili-ad.js
 
 # > Google
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 
-# > zhihu Wechat miniapp
+# > Zhihu Wechat MiniApp
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/related\-minapps url reject-img
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/hot\_recommendation\/ad url reject-img
 
-# >
+# > Weibo Wechat MiniApp
+^https?:\/\/dsp\.edm\.weibo\.cn\/api\/ads reject-img
+
+# > 3rd Apps
 \/eapi\/(ad|banner|homepage\/show) url reject
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads url reject
 ^https?\/\/pagead\d\.googlesyndication\.com url reject
