@@ -1,7 +1,7 @@
 hostname=api.douban.com,api2.sparke.cn,api.zhihu.com,app.bilibili.com,dsp.edm.weibo.cn
 
 # > Javascripts
-#^https?:\/\/app\.bilibili\.com\/x\/(v2\/feed\/index|resource\/show\/tab\?access|v2\/view\?access_key|v2\/search\/square) url script-response-body https://raw.githubusercontent.com/acacia233/SimpleRule/master/Quantumult%20X/Js/bilibili-ad.js
+^https://app.bilibili.com/x/(v2/feed/index|resource/show/tab?access|v2/view?access_key|v2/search/square) url script-response-body https://raw.githubusercontent.com/acacia233/SimpleRule/master/Quantumult%20X/Js/bilibili-ad.js
 
 # > Google
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com

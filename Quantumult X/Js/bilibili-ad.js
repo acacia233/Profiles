@@ -19,7 +19,7 @@ body=JSON.stringify(body)
 if (url.indexOf(p2) != -1) {
 body=JSON.parse(body)
 body['data']['tab'].forEach((element, index) => {
-   if(element['pos']==6){
+   if(element['pos']>5){
           body['data']['tab'].splice(index,1)
     }
 })
@@ -46,6 +46,7 @@ body['data']['relates'].forEach((element, index)=> {
          body['data']['relates'].splice(index,1)  
     }
 })
+delete body['data']['cms']
 body=JSON.stringify(body)
 }
 
@@ -60,17 +61,3 @@ body=JSON.stringify(body)
 }
 
 $done({body})
-
-/*
-哔哩哔哩广告去除
-1.去除掉顶栏的游戏中心
-2.去除底栏的会员购
-3.去除除了五项主要分类以外的分类
-4.去除首页中的广告
-5.去除视频页下方的非视频类推荐
-6.去除了搜索中的热搜
-需要搭配分流达到比较好的效果
-频道：https://t.me/acacia233
-MITM app.bilibili.com
-http-response ^https?:\/\/app\.bilibili\.com\/x\/(v2\/feed\/index|resource\/show\/tab\?access|v2\/view\?access_key|v2\/search\/square) requires-body=1,script-path=https://raw.githubusercontent.com/acacia233/SimpleRule/master/Surge/Js/bilibili-ad.js
-*/

@@ -19,7 +19,7 @@ body=JSON.stringify(body)
 if (url.indexOf(p2) != -1) {
 body=JSON.parse(body)
 body['data']['tab'].forEach((element, index) => {
-   if(element['pos']==6){
+   if(element['pos']>5){
           body['data']['tab'].splice(index,1)
     }
 })
@@ -46,6 +46,7 @@ body['data']['relates'].forEach((element, index)=> {
          body['data']['relates'].splice(index,1)  
     }
 })
+delete body['data']['cms']
 body=JSON.stringify(body)
 }
 
