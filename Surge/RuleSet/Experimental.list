@@ -1,0 +1,6 @@
+# > Douban
+AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0))), (NOT,((DOMAIN-SUFFIX,doubanio.com))))
+
+# FlipBoard China
+URL-REGEX,https://fbchina.flipchina.cn/v2/ad
+URL-REGEX,https://cdn.flipchina.cn/uploads/flad
