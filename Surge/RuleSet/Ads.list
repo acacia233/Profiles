@@ -40,7 +40,7 @@ URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad
 
 # > ZhiHu
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides)|.*(recommendations|commercial|featured-comment-ad|ad-style-service))
-AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))),(NOT,((IP-CIDR,0.0.0.0/0,no-resolve))))
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
 
 # > BiliBili
 URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access
