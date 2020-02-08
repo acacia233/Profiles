@@ -1,3 +1,4 @@
+# > 3rd Party Websites
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,yahoo
 DOMAIN-KEYWORD,amazon
@@ -22,7 +23,11 @@ DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,xnxx.com
+
+# > Microsoft
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,microsofttranslator.net
