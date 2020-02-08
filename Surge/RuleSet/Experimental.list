@@ -1,6 +1,6 @@
 # > Douban
 DOMAIN-SUFFIX,erebor.douban.com
-DOMAIN-SUFFIX.amonsul.douban.com
+DOMAIN-SUFFIX,amonsul.douban.com
 AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0))), (NOT,((DOMAIN-SUFFIX,doubanio.com))))
 
 # > FlipBoard China
