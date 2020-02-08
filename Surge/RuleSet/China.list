@@ -22,9 +22,11 @@ USER-AGENT,cloudd*
 # > BiliBili
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,bilivideo.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 USER-AGENT,comic-universal*
 
