@@ -52,6 +52,7 @@ DOMAIN-SUFFIX,weibo.com
 
 # > 3rd Party Websites
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,yidianzixun.com
