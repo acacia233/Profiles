@@ -37,8 +37,10 @@ DOMAIN-SUFFIX,servicewechat.com
 # > Alibaba
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,cainiao.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-KEYWORD,alicdn
 
@@ -52,6 +54,8 @@ DOMAIN-SUFFIX,weibo.com
 
 # > 3rd Party Websites
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,sogou.com

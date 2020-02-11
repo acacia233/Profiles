@@ -10,3 +10,5 @@ URL-REGEX,https://cdn.flipchina.cn/uploads/flad
 # > 3rd Party Websites
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,sdk.iad-01.braze.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,tanx.com
