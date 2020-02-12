@@ -32,6 +32,7 @@ USER-AGENT,comic-universal*
 
 # > Tencent
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,servicewechat.com
 
 # > Alibaba
@@ -48,9 +49,10 @@ DOMAIN-KEYWORD,alicdn
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 
-# > SINA
+# > Sina
 DOMAIN-SUFFIX,miaopai.com
 DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibocdn.com
 
 # > 3rd Party Websites
 DOMAIN-SUFFIX,cn
