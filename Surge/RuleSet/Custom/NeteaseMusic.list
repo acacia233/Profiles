@@ -1,2 +1,2 @@
 # > NeteaseMusic
-URL-REGEX,\/eapi\/(album|song|v6|playlist|content)
+URL-REGEX,\/eapi
