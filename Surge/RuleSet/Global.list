@@ -4,6 +4,8 @@ DOMAIN-KEYWORD,yahoo
 DOMAIN-KEYWORD,amazon
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,ampproject.org
