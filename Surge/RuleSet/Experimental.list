@@ -3,10 +3,6 @@ DOMAIN-SUFFIX,erebor.douban.com
 DOMAIN-SUFFIX,amonsul.douban.com
 AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))))
 
-# > FlipBoard China
-URL-REGEX,https://fbchina.flipchina.cn/v2/ad
-URL-REGEX,https://cdn.flipchina.cn/uploads/flad
-
 # > 3rd Party Websites
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,sdk.iad-01.braze.com

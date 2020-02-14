@@ -1,10 +1,11 @@
-hostname=api.douban.com,api2.sparke.cn,api.zhihu.com,app.bilibili.com,dsp.edm.weibo.cn
+hostname=*.douban.com,api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn
 
-# > Javascripts
-^https://app.bilibili.com/x/(v2/feed/index|resource/show/tab?access|v2/view?access_key|v2/search/square) url script-response-body https://raw.githubusercontent.com/acacia233/SimpleRule/master/Quantumult%20X/Js/bilibili-ad.js
-
-# > Google
+# > Google Search
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+
+# > Douban
+^https?:\/\/api\.douban\.com\/v\d\/app_ads url reject
+^https?:\/\/erebor\.douban\.com\/count\/\?ad url reject
 
 # > Zhihu Wechat MiniApp
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/related\-minapps url reject-img
@@ -13,10 +14,19 @@ hostname=api.douban.com,api2.sparke.cn,api.zhihu.com,app.bilibili.com,dsp.edm.we
 # > Weibo Wechat MiniApp
 ^https?:\/\/dsp\.edm\.weibo\.cn\/api\/ads url reject-img
 
-# > 3rd Apps
-\/eapi\/(ad|banner|homepage\/show) url reject
-^https?:\/\/api\.douban\.com\/v\d\/app_ads url reject
-^https?\/\/pagead\d\.googlesyndication\.com url reject
+# > Sparke English
 ^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad url reject
+
+# > FlipBoard China
+^https?:\/\/fbchina\.flipchina\.cn\/v2\/ad url reject
+^https?:\/\/cdn\.flipchina\.cn\/uploads\/flad url reject
+
+# > NeteaseMusic
+\/eapi\/(ad|banner|homepage\/show) url reject
+
+# > WeChat
 ^https?:\/\/pgdt\.gtimg\.cn url reject-img
 ^https?:\/\/wxsnsdythumb\.wxs\.qq\.com url reject-img
+
+# > 3rd Apps
+^https?\/\/pagead\d\.googlesyndication\.com url reject

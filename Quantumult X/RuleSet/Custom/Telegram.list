@@ -16,7 +16,8 @@ IP-CIDR,149.154.160.0/20,Telegram
 IP-CIDR,149.154.164.0/22,Telegram
 IP-CIDR,149.154.172.0/22,Telegram
 IP-CIDR,205.172.60.0/22,Telegram
-# > IPv6 Support
-;IP-CIDR6,2001:67c:4e8::/48,Telegram
-;IP-CIDR6,2001:b28:f23f::/48,Telegram
-;IP-CIDR6,2001:b28:f23d::/48,Telegram
+# > New IP Ranges (Test)
+IP-CIDR,45.90.116.0/22,no-resolve,Telegram
+IP-CIDR,45.142.38.0/24,no-resolve,Telegram
+IP-CIDR,196.54.112.0/22,no-resolve,Telegram
+IP-CIDR,196.55.192.0/19,no-resolve,Telegram
