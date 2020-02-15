@@ -17,7 +17,7 @@ IP-CIDR,149.154.164.0/22,Telegram
 IP-CIDR,149.154.172.0/22,Telegram
 IP-CIDR,205.172.60.0/22,Telegram
 # > New IP Ranges (Test)
-IP-CIDR,45.90.116.0/22,no-resolve,Telegram
-IP-CIDR,45.142.38.0/24,no-resolve,Telegram
-IP-CIDR,196.54.112.0/22,no-resolve,Telegram
-IP-CIDR,196.55.192.0/19,no-resolve,Telegram
+IP-CIDR,45.90.116.0/22,Telegram
+IP-CIDR,45.142.38.0/24,Telegram
+IP-CIDR,196.54.112.0/22,Telegram
+IP-CIDR,196.55.192.0/19,Telegram
