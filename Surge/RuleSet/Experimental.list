@@ -1,7 +1,7 @@
 # > Douban
 DOMAIN-SUFFIX,erebor.douban.com
 DOMAIN-SUFFIX,amonsul.douban.com
-AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))))
+AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
 
 # > 3rd Party Websites
 DOMAIN-SUFFIX,xdrig.com
