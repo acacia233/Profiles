@@ -28,6 +28,9 @@ DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,xnxx.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudfront.com
+DOMAIN-SUFFIX,klabgames.net
 
 # > Microsoft
 DOMAIN-SUFFIX,onestore.ms

@@ -26,3 +26,6 @@ DOMAIN-SUFFIX,live.com,Global
 DOMAIN-SUFFIX,msn.com,Global
 DOMAIN-SUFFIX,microsoft.com,Global
 DOMAIN-SUFFIX,office.com,Global
+DOMAIN-SUFFIX,cloudflare.com,Global
+DOMAIN-SUFFIX,cloudfront.com,Global
+DOMAIN-SUFFIX,klabgames.net,Global
