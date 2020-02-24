@@ -53,6 +53,9 @@ URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
 URL-REGEX,https://fbchina.flipchina.cn/v2/ad
 URL-REGEX,https://cdn.flipchina.cn/uploads/flad
 
+# > China Unicom
+URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push
+
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com
 DOMAIN,adt.xdrig.com

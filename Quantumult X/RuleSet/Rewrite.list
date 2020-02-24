@@ -24,6 +24,9 @@ hostname=*.douban.com,api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.
 # > NeteaseMusic
 \/eapi\/(ad|banner|homepage\/show) url reject
 
+# > China Unicom
+^http:\/\/pushservice\.10010\.com\/pushweb\/push url reject
+
 # > WeChat
 ^https?:\/\/pgdt\.gtimg\.cn url reject-img
 ^https?:\/\/wxsnsdythumb\.wxs\.qq\.com url reject-img
