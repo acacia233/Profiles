@@ -28,3 +28,4 @@ IP-CIDR,45.128.32.162,no-resolve
 IP-CIDR,45.142.38.0/24,no-resolve
 IP-CIDR,196.54.112.0/22,no-resolve
 IP-CIDR,196.55.192.0/19,no-resolve
+IP-CIDR,196.55.240.0/20,no-resolve
