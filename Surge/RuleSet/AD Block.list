@@ -21,6 +21,7 @@ DOMAIN,adashbc.ut.taobao.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
 # > Google Ad
+DOMAIN,adservice.google.com
 DOMAIN,googleads.g.doubleclick.net
 URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
 # > NeteaseMusic
@@ -61,8 +62,27 @@ DOMAIN,event3alt.adcolony.com
 DOMAIN,cdn-adn-https-baidu.rayjump.com
 DOMAIN,rv-gateway.supersonicads.com
 DOMAIN,outcome-ssp.supersonicads.com
+DOMAIN-SUFFIX,amazon-adsystem.com
 
 # > Test
 DOMAIN-SUFFIX,sdk.iad-01.braze.com
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,tanx.com
+
+# > Special Part (Need REJECT-TINYGIF)
+# > Zhihu WeChat MiniApp
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,wxsnsdythumb.wxs.qq.com
+URL-REGEX,https://api.zhihu.com/wx-minapp-push/related-minapps
+URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad
+
+# > Weibo WeChat MiniApp
+URL-REGEX,https://dsp.edm.weibo.cn/api/ads
+
+# > 3rd Party Websites
+URL-REGEX,https://hmma.baidu.com/app.gif
+
+# > Douban
+DOMAIN-SUFFIX,erebor.douban.com
+DOMAIN-SUFFIX,amonsul.douban.com
+AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))

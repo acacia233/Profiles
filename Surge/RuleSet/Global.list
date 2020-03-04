@@ -1,43 +1,62 @@
-# > 3rd Party Websites
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,yahoo
-DOMAIN-KEYWORD,amazon
-DOMAIN-SUFFIX,weather.com
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,twitchcdn.net
-DOMAIN-SUFFIX,ttvnw.net
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,fbcdn.net
+# > Google
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,xvideos.com
-DOMAIN-SUFFIX,wikipedia.com
-DOMAIN-SUFFIX,yandex.ru
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,ebay.com
-DOMAIN-SUFFIX,quora.com
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,tumblr.com
-DOMAIN-SUFFIX,adobe.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,xnxx.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudfront.com
-DOMAIN-SUFFIX,klabgames.net
-
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-KEYWORD,google
 # > Microsoft
+DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,onestore.ms
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,microsofttranslator.net
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+# > Twitch
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-SUFFIX,ttvnw.net
+# > Amazon
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-KEYWORD,amazon
+# > Wikipedia
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikipedia.com
+# > Pornhub
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,naiadsystems.com
+
+
+# > 3rd Party Websites
+DOMAIN-SUFFIX,xnxx.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudfront.com
+DOMAIN-SUFFIX,weather.com
+DOMAIN-SUFFIX,klabgames.net
+DOMAIN-KEYWORD,yahoo
