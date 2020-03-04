@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,amp.dev
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-KEYWORD,google
 # > Microsoft
 DOMAIN-SUFFIX,bing.com
@@ -19,6 +20,7 @@ DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,hockeyapp.net
+DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,visualstudio.com
