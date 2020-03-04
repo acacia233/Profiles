@@ -1,0 +1,74 @@
+# > Analytics
+DOMAIN-KEYWORD,analytics
+DOMAIN-KEYWORD,advertise
+DOMAIN,ulogs.umeng.com
+DOMAIN,ulogs.umengcloud.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,plbslog.umeng.com
+DOMAIN,v.admaster.com.cn
+DOMAIN,jice.admaster.com.cn
+
+# > Baidu
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+
+# > Tencent
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,mtteve.beacon.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
+
+# > Alibaba
+DOMAIN,adashxgc.ut.taobao.com
+DOMAIN,adashbc.ut.taobao.com
+DOMAIN,adashx.m.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
+
+# > Google Ad
+DOMAIN,googleads.g.doubleclick.net
+URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
+
+# > NeteaseMusic
+DOMAIN,iadmusicmat.music.126.net
+DOMAIN,iadmat.nosdn.127.net
+DOMAIN,admusicpic.music.126.net
+URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
+
+# > Douban
+DOMAIN-SUFFIX,erebor.douban.com
+DOMAIN-SUFFIX,amonsul.douban.com
+URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
+URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad
+AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
+
+# > ZhiHu
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx))
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
+
+# > BiliBili
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access
+AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,biliapi.net))), (NOT,((DOMAIN-SUFFIX,biliapi.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))),(NOT,((DOMAIN-KEYWORD,hpplay))))
+
+# > Sparke English
+URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
+
+# > FlipBoard China
+URL-REGEX,https://fbchina.flipchina.cn/v2/ad
+URL-REGEX,https://cdn.flipchina.cn/uploads/flad
+
+# > China Unicom
+URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push
+
+# > 3rd Party Websites
+DOMAIN,ads.yahoo.com
+DOMAIN,adt.xdrig.com
+DOMAIN,m.dyhongzhi.cn
+DOMAIN,i.luyongkang.top
+DOMAIN,ws.tapjoyads.com
+DOMAIN,adx-tk.rayjump.com
+DOMAIN,sg01.rayjump.com
+DOMAIN,cdn-adn-bd.rayjump.com
+DOMAIN,event3alt.adcolony.com
+DOMAIN,cdn-adn-https-baidu.rayjump.com
+DOMAIN,rv-gateway.supersonicads.com
+DOMAIN,outcome-ssp.supersonicads.com
