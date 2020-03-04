@@ -1,0 +1,78 @@
+# > Google
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,amp.dev
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-KEYWORD,google
+# > Microsoft
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,onestore.ms
+DOMAIN-SUFFIX,sfx.ms
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,hockeyapp.net
+DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,microsofttranslator.net
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,azure.net
+DOMAIN-SUFFIX,azureedge.net
+# > Twitch
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,ext-twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,jtvnw.net
+# > Amazon
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-KEYWORD,amazon
+# > Wikipedia
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikipedia.com
+# > Pornhub
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,naiadsystems.com
+
+
+# > 3rd Party Websites
+DOMAIN-SUFFIX,xnxx.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,he.net
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudfront.com
+DOMAIN-SUFFIX,weather.com
+DOMAIN-SUFFIX,klabgames.net
+DOMAIN-KEYWORD,yahoo
