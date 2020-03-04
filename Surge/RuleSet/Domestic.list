@@ -63,3 +63,6 @@ DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-KEYWORD,maimemo
 USER-AGENT,ZAKER*
+
+# > GEOIP CN
+GEOIP,cn
