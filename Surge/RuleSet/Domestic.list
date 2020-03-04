@@ -5,21 +5,11 @@ DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,lofter.com
-
 # > Baidu
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,iqiyi.com
-
-# > Apple
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,crashlytics.com
-USER-AGENT,com.apple.trustd*
-USER-AGENT,cloudd*
-
 # > BiliBili
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biliapi.com
@@ -30,12 +20,10 @@ DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 USER-AGENT,comic-universal*
-
 # > Tencent
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,servicewechat.com
-
 # > Alibaba
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
@@ -45,15 +33,16 @@ DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-KEYWORD,alicdn
-
 # > Zhihu
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
-
 # > Sina
 DOMAIN-SUFFIX,miaopai.com
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
+# > JD
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buyimg.com
 
 # > 3rd Party Websites
 DOMAIN-SUFFIX,cn
@@ -65,7 +54,8 @@ DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,yidianzixun.com
 DOMAIN-SUFFIX,sohu.com
-DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,fliggy.com

@@ -10,3 +10,7 @@ URL-REGEX,https://dsp.edm.weibo.cn/api/ads
 # > 3rd Party Websites
 URL-REGEX,https://hmma.baidu.com/app.gif
 
+# > Douban
+DOMAIN-SUFFIX,erebor.douban.com
+DOMAIN-SUFFIX,amonsul.douban.com
+AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
