@@ -24,6 +24,7 @@ USER-AGENT,comic-universal*
 # > Tencent
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,servicewechat.com
 # > Alibaba
 DOMAIN-SUFFIX,taobao.com
