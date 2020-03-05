@@ -55,6 +55,7 @@ URL-REGEX,https://cdn.flipchina.cn/uploads/flad
 
 # > China Unicom
 URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push
+URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords
 
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com
