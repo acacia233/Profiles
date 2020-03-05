@@ -55,13 +55,20 @@ DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,naiadsystems.com
-
+# > Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,contest.com
 
 # > 3rd Party Websites
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,he.net
 DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,yandex.ru

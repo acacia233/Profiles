@@ -22,6 +22,7 @@ DOMAIN,adashx.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
 # > Google Ad
 DOMAIN,adservice.google.com
+DOMAIN,ad.doubleclick.net
 DOMAIN,googleads.g.doubleclick.net
 URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
 # > NeteaseMusic
