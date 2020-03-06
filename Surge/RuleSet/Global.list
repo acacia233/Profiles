@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,azure.net
 DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,aspnetcdn.com
 # > Twitch
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,ext-twitch.tv
@@ -59,6 +60,8 @@ DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,contest.com
+# > CDN
+DOMAIN,libs.cdnjs.net
 
 # > 3rd Party Websites
 DOMAIN-SUFFIX,xnxx.com

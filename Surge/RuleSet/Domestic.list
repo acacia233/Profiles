@@ -49,6 +49,9 @@ DOMAIN-SUFFIX,360buyimg.com
 # > Douban
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
+# > CDN
+DOMAIN,upcdn.b0.upaiyun.com
+DOMAIN,cdn.bootcss.com
 
 # > 3rd Party Websites
 DOMAIN-SUFFIX,cn
