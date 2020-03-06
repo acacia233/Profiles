@@ -25,7 +25,11 @@ DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,adservice.google.com
 DOMAIN,ad.doubleclick.net
 DOMAIN,googleads.g.doubleclick.net
+DOMAIN,securepubads.g.doubleclick.net
+DOMAIN-SUFFIX,ggpht.com
 URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
+URL-REGEX,^https:\/\/.*\.youtube\.com\/.*(ads|adformat|pagead)
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.*(oad|ctier)
 # > NeteaseMusic
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmat.nosdn.127.net
@@ -77,13 +81,10 @@ DOMAIN,pgdt.gtimg.cn
 DOMAIN,wxsnsdythumb.wxs.qq.com
 URL-REGEX,https://api.zhihu.com/wx-minapp-push/related-minapps
 URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad
-
 # > Weibo WeChat MiniApp
 URL-REGEX,https://dsp.edm.weibo.cn/api/ads
-
 # > 3rd Party Websites
 URL-REGEX,https://hmma.baidu.com/app.gif
-
 # > Douban
 DOMAIN-SUFFIX,erebor.douban.com
 DOMAIN-SUFFIX,amonsul.douban.com

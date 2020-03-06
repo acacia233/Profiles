@@ -1,2 +1,4 @@
 # > Google Analytics
 USER-AGENT,com.google.Analytics*
+# > Youtube
+URL-REGEX,^https?:\/\/.*\.ggpht\.com\/.*(jpg)
