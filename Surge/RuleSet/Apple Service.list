@@ -8,7 +8,6 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,itunes.com
-USER-AGENT,AppleCoreMedia*
 USER-AGENT,com.apple.trustd*
 USER-AGENT,geod*
 USER-AGENT,AppStore*
