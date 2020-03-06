@@ -46,14 +46,16 @@ DOMAIN-SUFFIX,weibocdn.com
 # > JD
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,360buyimg.com
+# > Douban
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,doubanio.com
 
 # > 3rd Party Websites
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,douban.com
-DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,yidianzixun.com
 DOMAIN-SUFFIX,sohu.com
