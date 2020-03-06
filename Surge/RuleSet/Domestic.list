@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
 # > BiliBili
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biliapi.com
@@ -24,6 +25,7 @@ USER-AGENT,comic-universal*
 # > Tencent
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,servicewechat.com
 # > Alibaba
@@ -49,9 +51,16 @@ DOMAIN-SUFFIX,360buyimg.com
 # > Douban
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
+# > Youku
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,ykimg.com
 # > SMZDM
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,zdmimg.com
+# > ByteDance
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,byteimg.com
 # > CDN
 DOMAIN,upcdn.b0.upaiyun.com
 DOMAIN,cdn.bootcss.com
@@ -68,7 +77,6 @@ DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,toutiao.com
-DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,fliggy.com
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,meituan.com
