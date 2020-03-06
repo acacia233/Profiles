@@ -49,6 +49,9 @@ DOMAIN-SUFFIX,360buyimg.com
 # > Douban
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
+# > SMZDM
+DOMAIN-SUFFIX,smzdm.com
+DOMAIN-SUFFIX,zdmimg.com
 # > CDN
 DOMAIN,upcdn.b0.upaiyun.com
 DOMAIN,cdn.bootcss.com
@@ -69,6 +72,7 @@ DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,fliggy.com
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,17wanxiao.com
 DOMAIN-KEYWORD,maimemo
 USER-AGENT,ZAKER*
 
