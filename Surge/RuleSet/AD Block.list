@@ -7,6 +7,7 @@ DOMAIN,msg.umengcloud.com
 DOMAIN,plbslog.umeng.com
 DOMAIN,v.admaster.com.cn
 DOMAIN,jice.admaster.com.cn
+DOMAIN-SUFFIX,xdrig.com
 # > Baidu
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
@@ -20,7 +21,7 @@ DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,adashbc.ut.taobao.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
-# > Google Ad
+# > Google
 DOMAIN,adservice.google.com
 DOMAIN,ad.doubleclick.net
 DOMAIN,googleads.g.doubleclick.net
@@ -53,7 +54,6 @@ URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords
 
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com
-DOMAIN,adt.xdrig.com
 DOMAIN,m.dyhongzhi.cn
 DOMAIN,i.luyongkang.top
 DOMAIN,ws.tapjoyads.com
