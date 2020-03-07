@@ -8,19 +8,31 @@ DOMAIN,plbslog.umeng.com
 DOMAIN,v.admaster.com.cn
 DOMAIN,jice.admaster.com.cn
 DOMAIN-SUFFIX,xdrig.com
-# > Baidu
-DOMAIN,hm.baidu.com
-DOMAIN,hmma.baidu.com
-DOMAIN-SUFFIX,pos.baidu.com
-# > Tencent
-DOMAIN,adsmind.gdtimg.com
-DOMAIN,mtteve.beacon.qq.com
-DOMAIN,adsmind.apdcdn.tc.qq.com
+
 # > Alibaba
 DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,adashbc.ut.taobao.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
+# > Baidu
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+# > BiliBili
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access
+AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,biliapi.net))), (NOT,((DOMAIN-SUFFIX,biliapi.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))),(NOT,((DOMAIN-KEYWORD,hpplay))))
+# > China Unicom
+URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push
+URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords
+# > Douban
+DOMAIN-SUFFIX,erebor.douban.com
+DOMAIN-SUFFIX,amonsul.douban.com
+URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
+URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad
+AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
+# > FlipBoard China
+URL-REGEX,https://fbchina.flipchina.cn/v2/ad
+URL-REGEX,https://cdn.flipchina.cn/uploads/flad
 # > Google
 DOMAIN,adservice.google.com
 DOMAIN,ad.doubleclick.net
@@ -35,26 +47,17 @@ DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN,admusicpic.music.126.net
 URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
-# > Douban
-DOMAIN-SUFFIX,erebor.douban.com
-DOMAIN-SUFFIX,amonsul.douban.com
-URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
-URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad
-AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
+# > QingMang
+URL-REGEX,^http:\/\/api\.qingmang\.me\/v1\/log\.send
+# > Sparke English
+URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
+# > Tencent
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,mtteve.beacon.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
 # > ZhiHu
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx))
 AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
-# > BiliBili
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access
-AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,biliapi.net))), (NOT,((DOMAIN-SUFFIX,biliapi.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))),(NOT,((DOMAIN-KEYWORD,hpplay))))
-# > Sparke English
-URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
-# > FlipBoard China
-URL-REGEX,https://fbchina.flipchina.cn/v2/ad
-URL-REGEX,https://cdn.flipchina.cn/uploads/flad
-# > China Unicom
-URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push
-URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords
 
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com
@@ -70,22 +73,22 @@ DOMAIN,rv-gateway.supersonicads.com
 DOMAIN,outcome-ssp.supersonicads.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 
-# > Test
-DOMAIN-SUFFIX,sdk.iad-01.braze.com
-DOMAIN-SUFFIX,mmstat.com
-DOMAIN-SUFFIX,tanx.com
-
-# > Special Part (Need REJECT-TINYGIF)
-# > Zhihu WeChat MiniApp
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,wxsnsdythumb.wxs.qq.com
-URL-REGEX,https://api.zhihu.com/wx-minapp-push/related-minapps
-URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad
-# > Weibo WeChat MiniApp
-URL-REGEX,https://dsp.edm.weibo.cn/api/ads
-# > 3rd Party Websites
+# > Special AD's Part (Need REJECT-TINYGIF)
+# > Baidu
 URL-REGEX,https://hmma.baidu.com/app.gif
 # > Douban
 DOMAIN-SUFFIX,erebor.douban.com
 DOMAIN-SUFFIX,amonsul.douban.com
 AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
+# > Weibo WeChat MiniApp
+URL-REGEX,https://dsp.edm.weibo.cn/api/ads
+# > Zhihu WeChat MiniApp
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,wxsnsdythumb.wxs.qq.com
+URL-REGEX,https://api.zhihu.com/wx-minapp-push/related-minapps
+URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad
+
+# > Test
+DOMAIN-SUFFIX,sdk.iad-01.braze.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,tanx.com
