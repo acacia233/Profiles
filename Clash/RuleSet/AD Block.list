@@ -1,0 +1,35 @@
+DOMAIN,ulogs.umeng.com
+DOMAIN,ulogs.umengcloud.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,plbslog.umeng.com
+DOMAIN,v.admaster.com.cn
+DOMAIN,jice.admaster.com.cn
+DOMAIN-SUFFIX,xdrig.com
+
+# > Alibaba
+DOMAIN,adashxgc.ut.taobao.com
+DOMAIN,adashbc.ut.taobao.com
+DOMAIN,adashx.m.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
+# > Baidu
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+# > Tencent
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,mtteve.beacon.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
+
+# > 3rd Party Websites
+DOMAIN,ads.yahoo.com
+DOMAIN,m.dyhongzhi.cn
+DOMAIN,i.luyongkang.top
+DOMAIN,ws.tapjoyads.com
+DOMAIN,adx-tk.rayjump.com
+DOMAIN,sg01.rayjump.com
+DOMAIN,cdn-adn-bd.rayjump.com
+DOMAIN,event3alt.adcolony.com
+DOMAIN,cdn-adn-https-baidu.rayjump.com
+DOMAIN,rv-gateway.supersonicads.com
+DOMAIN,outcome-ssp.supersonicads.com
+DOMAIN-SUFFIX,amazon-adsystem.com

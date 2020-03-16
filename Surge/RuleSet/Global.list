@@ -62,8 +62,13 @@ DOMAIN-SUFFIX,jtvnw.net
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikipedia.com
-
-
+# > Facebook
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.net
+# > Twitter
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
 
 # > CDN
 DOMAIN,libs.cdnjs.net
@@ -72,10 +77,6 @@ DOMAIN,libs.cdnjs.net
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,he.net
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,facebook.net
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,ebay.com
