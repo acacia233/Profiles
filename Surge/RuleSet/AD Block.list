@@ -38,7 +38,6 @@ DOMAIN,adservice.google.com
 DOMAIN,ad.doubleclick.net
 DOMAIN,googleads.g.doubleclick.net
 DOMAIN,securepubads.g.doubleclick.net
-DOMAIN-SUFFIX,ggpht.com
 URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
 URL-REGEX,^https:\/\/.*\.youtube\.com\/.*(ads|adformat|pagead)
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.*(oad|ctier)
