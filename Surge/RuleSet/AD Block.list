@@ -56,7 +56,7 @@ DOMAIN,mtteve.beacon.qq.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
 # > ZhiHu
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx))
-AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((IP-CIDR,118.89.204.198/32,no-resolve))))
 
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com
