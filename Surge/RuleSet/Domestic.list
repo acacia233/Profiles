@@ -4,10 +4,6 @@ DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,cainiao.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipayobjects.com
-DOMAIN-SUFFIX,aliyun.com
-DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,alibabausercontent.com
-DOMAIN-KEYWORD,alicdn
 # > Baidu
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bdstatic.com
