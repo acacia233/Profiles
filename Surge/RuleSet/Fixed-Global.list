@@ -1,2 +1,4 @@
 # > Google Analytics
 USER-AGENT,com.google.Analytics*
+# > Let's Encrypt CA Fixed
+DOMAIN,ocsp.int-x3.letsencrypt.org
