@@ -1,2 +1,3 @@
 # > NeteaseMusic
 URL-REGEX,\/eapi
+USER-AGENT,NeteaseMusic*
