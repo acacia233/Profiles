@@ -3,6 +3,9 @@ hostname=*.douban.com,api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.
 # > Google Search
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 
+# > BiliBili
+^https?:\/\/app\.bilibili\.com\/x\/(v2\/feed\/index|resource\/show\/tab\?access|v2\/view\?access_key|v2\/search\/square) url script-response-body bilibili-ad.js
+
 # > Douban
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads url reject
 ^https?:\/\/erebor\.douban\.com\/count\/\?ad url reject
