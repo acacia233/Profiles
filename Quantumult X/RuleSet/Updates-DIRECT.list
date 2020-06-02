@@ -1,2 +1,7 @@
-# > 暂时没有随便整个占位
-DOMAIN,www.baidu.com,DIRECT
+# > CDN
+HOST,cdn.staticfile.org,DIRECT
+HOST,cdn.jsdelivr.net,DIRECT
+
+# > WeChat (Test)
+USER-AGENT,WeChat*,DIRECT
+USER-AGENT,MicroMessenger*,DIRECT

@@ -1,24 +1,22 @@
-hostname=*.douban.com,api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn
+hostname=*.douban.com,api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,
+
+# > Rewrite
 
 # > Google Search
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 
+
+# > Remove Ads
+
 # > BiliBili
 ^https?:\/\/app\.bilibili\.com\/x\/(v2\/feed\/index|resource\/show\/tab\?access|v2\/view\?access_key|v2\/search\/square) url script-response-body bilibili-ad.js
+
+# > China Unicom
+^http:\/\/pushservice\.10010\.com\/pushweb\/push url reject
 
 # > Douban
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads url reject
 ^https?:\/\/erebor\.douban\.com\/count\/\?ad url reject
-
-# > Zhihu Wechat MiniApp
-^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/related\-minapps url reject-img
-^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/hot\_recommendation\/ad url reject-img
-
-# > Weibo Wechat MiniApp
-^https?:\/\/dsp\.edm\.weibo\.cn\/api\/ads url reject-img
-
-# > Sparke English
-^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad url reject
 
 # > FlipBoard China
 ^https?:\/\/fbchina\.flipchina\.cn\/v2\/ad url reject
@@ -27,12 +25,21 @@ hostname=*.douban.com,api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.
 # > NeteaseMusic
 \/eapi\/(ad|banner|homepage\/show) url reject
 
-# > China Unicom
-^http:\/\/pushservice\.10010\.com\/pushweb\/push url reject
+# > Sparke English
+^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad url reject
 
 # > WeChat
 ^https?:\/\/pgdt\.gtimg\.cn url reject-img
 ^https?:\/\/wxsnsdythumb\.wxs\.qq\.com url reject-img
+
+# > Weibo Wechat MiniApp
+^https?:\/\/dsp\.edm\.weibo\.cn\/api\/ads url reject-img
+
+# > Zhihu
+^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/related\-minapps url reject-img
+^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/hot\_recommendation\/ad url reject-img
+^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides|fringe\/ad)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx)) url reject
+^https?:\/\/api\.zhihu\.com\/(topstory\/recommend|search\/top_search|v4\/questions) url script-response-body zhihu-ad.js
 
 # > 3rd Apps
 ^https?\/\/pagead\d\.googlesyndication\.com url reject

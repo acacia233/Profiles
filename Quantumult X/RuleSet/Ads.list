@@ -1,49 +1,49 @@
 # > Analytics
-DOMAIN-KEYWORD,analytics,reject
-DOMAIN-KEYWORD,advertise,reject
-DOMAIN,ulogs.umeng.com,reject
-DOMAIN,ulogs.umengcloud.com,reject
-DOMAIN,msg.umengcloud.com,reject
-DOMAIN,plbslog.umeng.com,reject
-DOMAIN,v.admaster.com.cn,reject
-DOMAIN,jice.admaster.com.cn,reject
+HOST-KEYWORD,analytics,reject
+HOST-KEYWORD,advertise,reject
+HOST,ulogs.umeng.com,reject
+HOST,ulogs.umengcloud.com,reject
+HOST,msg.umengcloud.com,reject
+HOST,plbslog.umeng.com,reject
+HOST,v.admaster.com.cn,reject
+HOST,jice.admaster.com.cn,reject
 
 # > Baidu
-DOMAIN,hm.baidu.com,reject
-DOMAIN,hmma.baidu.com,reject
-DOMAIN-SUFFIX,pos.baidu.com,reject
+HOST,hm.baidu.com,reject
+HOST,hmma.baidu.com,reject
+HOST-SUFFIX,pos.baidu.com,reject
 
 # > Tencent
-DOMAIN,adsmind.gdtimg.com,reject
-DOMAIN,mtteve.beacon.qq.com,reject
-DOMAIN,adsmind.apdcdn.tc.qq.com,reject
-DOMAIN,pgdt.gtimg.cn,reject
-DOMAIN,wxsnsdythumb.wxs.qq.com,reject
+HOST,adsmind.gdtimg.com,reject
+HOST,mtteve.beacon.qq.com,reject
+HOST,adsmind.apdcdn.tc.qq.com,reject
+HOST,pgdt.gtimg.cn,reject
+HOST,wxsnsdythumb.wxs.qq.com,reject
 
 # > Alibaba
-DOMAIN,adashxgc.ut.taobao.com,reject
-DOMAIN,adashbc.ut.taobao.com,reject
-DOMAIN,adashx.m.taobao.com,reject
-DOMAIN,h-adashx.ut.taobao.com,reject
+HOST,adashxgc.ut.taobao.com,reject
+HOST,adashbc.ut.taobao.com,reject
+HOST,adashx.m.taobao.com,reject
+HOST,h-adashx.ut.taobao.com,reject
 
 # > Google Ad
-DOMAIN,googleads.g.doubleclick.net,reject
+HOST,googleads.g.doubleclick.net,reject
 
 # > NeteaseMusic
-DOMAIN,iadmusicmat.music.126.net,reject
-DOMAIN,iadmat.nosdn.127.net,reject
-DOMAIN,admusicpic.music.126.net,reject
+HOST,iadmusicmat.music.126.net,reject
+HOST,iadmat.nosdn.127.net,reject
+HOST,admusicpic.music.126.net,reject
 
 # > 3rd Party Websites
-DOMAIN,ads.yahoo.com,reject
-DOMAIN,adt.xdrig.com,reject
-DOMAIN,m.dyhongzhi.cn,reject
-DOMAIN,i.luyongkang.top,reject
-DOMAIN,ws.tapjoyads.com,reject
-DOMAIN,adx-tk.rayjump.com,reject
-DOMAIN,sg01.rayjump.com,reject
-DOMAIN,cdn-adn-bd.rayjump.com,reject
-DOMAIN,event3alt.adcolony.com,reject
-DOMAIN,cdn-adn-https-baidu.rayjump.com,reject
-DOMAIN,rv-gateway.supersonicads.com,reject
-DOMAIN,outcome-ssp.supersonicads.com,reject
+HOST,ads.yahoo.com,reject
+HOST,adt.xdrig.com,reject
+HOST,m.dyhongzhi.cn,reject
+HOST,i.luyongkang.top,reject
+HOST,ws.tapjoyads.com,reject
+HOST,adx-tk.rayjump.com,reject
+HOST,sg01.rayjump.com,reject
+HOST,cdn-adn-bd.rayjump.com,reject
+HOST,event3alt.adcolony.com,reject
+HOST,cdn-adn-https-baidu.rayjump.com,reject
+HOST,rv-gateway.supersonicads.com,reject
+HOST,outcome-ssp.supersonicads.com,reject

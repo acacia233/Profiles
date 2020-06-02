@@ -1,4 +1,5 @@
-DOMAIN-SUFFIX,nflxso.net,Netflix
-DOMAIN-SUFFIX,netflix.com,Netflix
-DOMAIN-SUFFIX,netflix.net,Netflix
-DOMAIN-SUFFIX,nflxvideo.net,Netflix
+# > Netflix
+HOST-SUFFIX,nflxso.net,Netflix
+HOST-SUFFIX,netflix.com,Netflix
+HOST-SUFFIX,netflix.net,Netflix
+HOST-SUFFIX,nflxvideo.net,Netflix
