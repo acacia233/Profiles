@@ -1,17 +1,3 @@
-# > Netease
-HOST-SUFFIX,netease.im,DIRECT
-HOST-SUFFIX,netease.com,DIRECT
-HOST-SUFFIX,163.com,DIRECT
-HOST-SUFFIX,127.net,DIRECT
-HOST-SUFFIX,126.net,DIRECT
-HOST-SUFFIX,lofter.com,DIRECT
-
-# > Baidu
-HOST-SUFFIX,baidu.com,DIRECT
-HOST-SUFFIX,bcebos.com,DIRECT
-HOST-SUFFIX,bdimg.com,DIRECT
-HOST-SUFFIX,iqiyi.com,DIRECT
-
 # > Apple
 HOST-SUFFIX,apple.com,DIRECT
 HOST-SUFFIX,icloud.com,DIRECT
@@ -19,6 +5,22 @@ HOST-SUFFIX,icloud-content.com,DIRECT
 HOST-SUFFIX,crashlytics.com,DIRECT
 USER-AGENT,com.apple.trustd*,DIRECT
 USER-AGENT,cloudd*,DIRECT
+
+# > Alibaba
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,cainiao.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,aliyun.com,DIRECT
+HOST-SUFFIX,aliyuncs.com,DIRECT
+HOST-SUFFIX,alibabausercontent.com,DIRECT
+HOST-KEYWORD,alicdn,DIRECT
+
+# > Baidu
+HOST-SUFFIX,baidu.com,DIRECT
+HOST-SUFFIX,bcebos.com,DIRECT
+HOST-SUFFIX,bdimg.com,DIRECT
+HOST-SUFFIX,iqiyi.com,DIRECT
 
 # > BiliBili
 HOST-SUFFIX,bilibili.com,DIRECT
@@ -31,29 +33,27 @@ HOST-SUFFIX,acgvideo.com,DIRECT
 HOST,upos-hz-mirrorakam.akamaized.net,DIRECT
 USER-AGENT,comic-universal*,DIRECT
 
-# > Tencent
-HOST-SUFFIX,qq.com,DIRECT
-HOST-SUFFIX,qcloud.com,DIRECT
-HOST-SUFFIX,servicewechat.com,DIRECT
-
-# > Alibaba
-HOST-SUFFIX,taobao.com,DIRECT
-HOST-SUFFIX,tmall.com,DIRECT
-HOST-SUFFIX,cainiao.com,DIRECT
-HOST-SUFFIX,alipay.com,DIRECT
-HOST-SUFFIX,aliyun.com,DIRECT
-HOST-SUFFIX,aliyuncs.com,DIRECT
-HOST-SUFFIX,alibabausercontent.com,DIRECT
-HOST-KEYWORD,alicdn,DIRECT
-
-# > Zhihu
-HOST-SUFFIX,zhihu.com,DIRECT
-HOST-SUFFIX,zhimg.com,DIRECT
+# > Netease
+HOST-SUFFIX,netease.im,DIRECT
+HOST-SUFFIX,netease.com,DIRECT
+HOST-SUFFIX,163.com,DIRECT
+HOST-SUFFIX,127.net,DIRECT
+HOST-SUFFIX,126.net,DIRECT
+HOST-SUFFIX,lofter.com,DIRECT
 
 # > Sina
 HOST-SUFFIX,miaopai.com,DIRECT
 HOST-SUFFIX,weibo.com,DIRECT
 HOST-SUFFIX,weibocdn.com,DIRECT
+
+# > Tencent
+HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,qcloud.com,DIRECT
+HOST-SUFFIX,servicewechat.com,DIRECT
+
+# > Zhihu
+HOST-SUFFIX,zhihu.com,DIRECT
+HOST-SUFFIX,zhimg.com,DIRECT
 
 # > 3rd Party Websites
 HOST-SUFFIX,cn,DIRECT
