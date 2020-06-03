@@ -13,7 +13,7 @@ hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban
 ^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords url reject-200
 
 # > BiliBili
-^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access url reject
+^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access url reject-img
 ^https?:\/\/app\.bilibili\.com\/x\/(v2\/feed\/index|resource\/show\/tab\?access|v2\/view\?access_key|v2\/search\/square) url script-response-body bilibili-ad.js
 
 # > China Unicom
