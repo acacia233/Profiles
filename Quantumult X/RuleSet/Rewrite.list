@@ -27,6 +27,9 @@ hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban
 \/eapi\/(ad|banner|homepage\/show) url reject-200
 # > Sparke English
 ^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad url reject
+# > Tencent
+^https?:\/\/pgdt\.gtimg\.cn url reject-img
+^https?:\/\/wxsnsdythumb\.wxs\.qq\.com url reject-img
 # > Weibo Wechat MiniApp
 ^https?:\/\/dsp\.edm\.weibo\.cn\/api\/ads url reject-img
 # > Youtube

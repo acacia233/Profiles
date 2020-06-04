@@ -25,8 +25,8 @@ HOST,iadmat.nosdn.127.net,reject
 HOST,admusicpic.music.126.net,reject
 # > Tencent
 HOST,adsmind.gdtimg.com,reject
-HOST,mtteve.beacon.qq.com,reject
 HOST,adsmind.apdcdn.tc.qq.com,reject
+
 # > 3rd Party Websites
 HOST,ads.yahoo.com,reject
 HOST,adt.xdrig.com,reject
