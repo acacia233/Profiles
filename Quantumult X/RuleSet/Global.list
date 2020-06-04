@@ -1,31 +1,93 @@
-HOST-KEYWORD,google,PROXY
-HOST-KEYWORD,yahoo,PROXY
+# > Amazon
+HOST-SUFFIX,amazon.com,PROXY
+HOST-SUFFIX,amazonaws.com,PROXY
+HOST-SUFFIX,media-amazon.com,PROXY
 HOST-KEYWORD,amazon,PROXY
-HOST-SUFFIX,wikimedia.org,PROXY
-HOST-SUFFIX,wikipedia.org,PROXY
+# > Google
+HOST-SUFFIX,google.com,PROXY
+HOST-SUFFIX,googleapis.com,PROXY
+HOST-SUFFIX,gstatic.com,PROXY
 HOST-SUFFIX,ampproject.org,PROXY
-HOST-SUFFIX,facebook.com,PROXY
+HOST-SUFFIX,amp.dev,PROXY
 HOST-SUFFIX,youtube.com,PROXY
 HOST-SUFFIX,youtu.be,PROXY
-HOST-SUFFIX,twitter.com,PROXY
+HOST-SUFFIX,ytimg.com,PROXY
+HOST-SUFFIX,googlevideo.com,PROXY
+HOST-SUFFIX,app-measurement.com,PROXY
+HOST-KEYWORD,google,PROXY
+# > Microsoft
+HOST-SUFFIX,bing.com,PROXY
+HOST-SUFFIX,onestore.ms,PROXY
+HOST-SUFFIX,live.com,PROXY
+HOST-SUFFIX,live.net,PROXY
+HOST-SUFFIX,msn.com,PROXY
+HOST-SUFFIX,msedge.net,PROXY
+HOST-SUFFIX,microsoft.com,PROXY
+HOST-SUFFIX,onedrive.com,PROXY
+HOST-SUFFIX,1drv.com,PROXY
+HOST-SUFFIX,hockeyapp.net,PROXY
+HOST-SUFFIX,appcenter.ms,PROXY
+HOST-SUFFIX,windows.net,PROXY
+HOST-SUFFIX,windowsupdate.com,PROXY
+HOST-SUFFIX,visualstudio.com,PROXY
+HOST-SUFFIX,office.com,PROXY
+HOST-SUFFIX,office.net,PROXY
+HOST-SUFFIX,hotmail.com,PROXY,PROXY
+HOST-SUFFIX,microsofttranslator.net,PROXY
+HOST-SUFFIX,azure.net,PROXY
+HOST-SUFFIX,azureedge.net,PROXY
+HOST-SUFFIX,aspnetcdn.com,PROXY
+HOST-SUFFIX,github.com,PROXY
+HOST-SUFFIX,githubassets.com,PROXY
+HOST-SUFFIX,githubusercontent.com,PROXY
+# > Pornhub
 HOST-SUFFIX,pornhub.com,PROXY
-HOST-SUFFIX,xvideos.com,PROXY
+HOST-SUFFIX,pornhubpremium.com,PROXY
+HOST-SUFFIX,phncdn.com,PROXY
+HOST-SUFFIX,naiadsystems.com,PROXY
+# > Telegram
+HOST-SUFFIX,t.me,PROXY
+HOST-SUFFIX,telegra.ph,PROXY
+HOST-SUFFIX,telegram.me,PROXY
+HOST-SUFFIX,telegram.org,PROXY
+HOST-SUFFIX,tdesktop.com,PROXY
+HOST-SUFFIX,contest.com,PROXY
+# > Twitch
+HOST-SUFFIX,twitch.tv,PROXY
+HOST-SUFFIX,ext-twitch.tv,PROXY
+HOST-SUFFIX,twitchcdn.net,PROXY
+HOST-SUFFIX,ttvnw.net,PROXY
+HOST-SUFFIX,jtvnw.net,PROXY
+# > Wikipedia
+HOST-SUFFIX,wikimedia.org,PROXY
+HOST-SUFFIX,wikipedia.org,PROXY
 HOST-SUFFIX,wikipedia.com,PROXY
+# > Facebook
+HOST-SUFFIX,facebook.com,PROXY
+HOST-SUFFIX,facebook.net,PROXY
+HOST-SUFFIX,fbcdn.net,PROXY
+# > Twitter
+HOST-SUFFIX,twitter.com,PROXY
+HOST-SUFFIX,twimg.com,PROXY
+
+# > CDN
+HOST,libs.cdnjs.net,PROXY
+HOST-SUFFIX,cloudflare.com,PROXY
+HOST-SUFFIX,cloudfront.com,PROXY
+
+# > 3rd Party Websites
+HOST-SUFFIX,xnxx.com,PROXY
+HOST-SUFFIX,xvideos.com,PROXY
+HOST-SUFFIX,he.net,PROXY
+HOST-SUFFIX,letsencrypt.org,PROXY
 HOST-SUFFIX,yandex.ru,PROXY
 HOST-SUFFIX,reddit.com,PROXY
 HOST-SUFFIX,ebay.com,PROXY
 HOST-SUFFIX,quora.com,PROXY
-HOST-SUFFIX,github.com,PROXY
-HOST-SUFFIX,githubusercontent.com,PROXY
 HOST-SUFFIX,paypal.com,PROXY
 HOST-SUFFIX,tumblr.com,PROXY
 HOST-SUFFIX,adobe.com,PROXY
 HOST-SUFFIX,instagram.com,PROXY
-HOST-SUFFIX,xnxx.com,PROXY
-HOST-SUFFIX,live.com,PROXY
-HOST-SUFFIX,msn.com,PROXY
-HOST-SUFFIX,microsoft.com,PROXY
-HOST-SUFFIX,office.com,PROXY
-HOST-SUFFIX,cloudflare.com,PROXY
-HOST-SUFFIX,cloudfront.com,PROXY
+HOST-SUFFIX,weather.com,PROXY
 HOST-SUFFIX,klabgames.net,PROXY
+HOST-KEYWORD,yahoo,PROXY

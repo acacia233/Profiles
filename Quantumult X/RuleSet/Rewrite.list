@@ -1,4 +1,4 @@
-hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban.com,app.bilibili.com,api.bilibili.com,*googlevideo.com,youtubei.googleapis.com,*.youtube.com
+hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban.com,*.bilibili.com,*googlevideo.com,youtubei.googleapis.com,*.youtube.com
 
 # > Rewrite
 

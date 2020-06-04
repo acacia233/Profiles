@@ -31,9 +31,6 @@ HOST,admusicpic.music.126.net,reject
 HOST,adsmind.gdtimg.com,reject
 HOST,mtteve.beacon.qq.com,reject
 HOST,adsmind.apdcdn.tc.qq.com,reject
-HOST,pgdt.gtimg.cn,reject
-HOST,wxsnsdy.wxs.qq.com,reject
-HOST,wxsnsdythumb.wxs.qq.com,reject
 
 # > 3rd Party Websites
 HOST,ads.yahoo.com,reject
