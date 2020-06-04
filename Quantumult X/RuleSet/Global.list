@@ -32,7 +32,7 @@ HOST-SUFFIX,windowsupdate.com,PROXY
 HOST-SUFFIX,visualstudio.com,PROXY
 HOST-SUFFIX,office.com,PROXY
 HOST-SUFFIX,office.net,PROXY
-HOST-SUFFIX,hotmail.com,PROXY,PROXY
+HOST-SUFFIX,hotmail.com,PROXY
 HOST-SUFFIX,microsofttranslator.net,PROXY
 HOST-SUFFIX,azure.net,PROXY
 HOST-SUFFIX,azureedge.net,PROXY
