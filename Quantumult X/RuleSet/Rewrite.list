@@ -1,4 +1,4 @@
-hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban.com,*.bilibili.com,*googlevideo.com,youtubei.googleapis.com,*.youtube.com
+hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban.com,*.bilibili.com,*googlevideo.com,youtubei.googleapis.com,*.youtube.com,premiumyva.appspot.com
 
 # > Rewrite
 # > Google Search
@@ -36,6 +36,7 @@ hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban
 ^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-img
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(ad_|log_) url reject-img
 ^https?:\/\/.+\.youtube\.com\/(get_midroll|api\/stats\/(ads|.+adformat)|pagead|ptracking) url reject-img
+^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-img
 # > Zhihu
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/related\-minapps url reject-img
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/hot\_recommendation\/ad url reject-img
