@@ -13,25 +13,20 @@ HOST,adashxgc.ut.taobao.com,reject
 HOST,adashbc.ut.taobao.com,reject
 HOST,adashx.m.taobao.com,reject
 HOST,h-adashx.ut.taobao.com,reject
-
 # > Baidu
 HOST,hm.baidu.com,reject
 HOST,hmma.baidu.com,reject
 HOST-SUFFIX,pos.baidu.com,reject
-
 # > Google Ad
 HOST,googleads.g.doubleclick.net,reject
-
 # > NeteaseMusic
 HOST,iadmusicmat.music.126.net,reject
 HOST,iadmat.nosdn.127.net,reject
 HOST,admusicpic.music.126.net,reject
-
 # > Tencent
 HOST,adsmind.gdtimg.com,reject
 HOST,mtteve.beacon.qq.com,reject
 HOST,adsmind.apdcdn.tc.qq.com,reject
-
 # > 3rd Party Websites
 HOST,ads.yahoo.com,reject
 HOST,adt.xdrig.com,reject

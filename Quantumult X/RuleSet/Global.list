@@ -3,6 +3,11 @@ HOST-SUFFIX,amazon.com,PROXY
 HOST-SUFFIX,amazonaws.com,PROXY
 HOST-SUFFIX,media-amazon.com,PROXY
 HOST-KEYWORD,amazon,PROXY
+# > Facebook
+HOST-SUFFIX,instagram.com,PROXY
+HOST-SUFFIX,facebook.com,PROXY
+HOST-SUFFIX,facebook.net,PROXY
+HOST-SUFFIX,fbcdn.net,PROXY
 # > Google
 HOST-SUFFIX,google.com,PROXY
 HOST-SUFFIX,googleapis.com,PROXY
@@ -58,36 +63,31 @@ HOST-SUFFIX,ext-twitch.tv,PROXY
 HOST-SUFFIX,twitchcdn.net,PROXY
 HOST-SUFFIX,ttvnw.net,PROXY
 HOST-SUFFIX,jtvnw.net,PROXY
+# > Twitter
+HOST-SUFFIX,twitter.com,PROXY
+HOST-SUFFIX,twimg.com,PROXY
 # > Wikipedia
 HOST-SUFFIX,wikimedia.org,PROXY
 HOST-SUFFIX,wikipedia.org,PROXY
 HOST-SUFFIX,wikipedia.com,PROXY
-# > Facebook
-HOST-SUFFIX,facebook.com,PROXY
-HOST-SUFFIX,facebook.net,PROXY
-HOST-SUFFIX,fbcdn.net,PROXY
-# > Twitter
-HOST-SUFFIX,twitter.com,PROXY
-HOST-SUFFIX,twimg.com,PROXY
-
-# > CDN
-HOST,libs.cdnjs.net,PROXY
-HOST-SUFFIX,cloudflare.com,PROXY
-HOST-SUFFIX,cloudfront.com,PROXY
 
 # > 3rd Party Websites
+HOST-SUFFIX,adobe.com,PROXY
+HOST-SUFFIX,ebay.com,PROXY
+HOST-SUFFIX,he.net,PROXY
+HOST-SUFFIX,klabgames.net,PROXY
+HOST-SUFFIX,letsencrypt.org,PROXY
+HOST-SUFFIX,paypal.com,PROXY
+HOST-SUFFIX,quora.com,PROXY
+HOST-SUFFIX,reddit.com,PROXY
+HOST-SUFFIX,tumblr.com,PROXY
+HOST-SUFFIX,weather.com,PROXY
 HOST-SUFFIX,xnxx.com,PROXY
 HOST-SUFFIX,xvideos.com,PROXY
-HOST-SUFFIX,he.net,PROXY
-HOST-SUFFIX,letsencrypt.org,PROXY
 HOST-SUFFIX,yandex.ru,PROXY
-HOST-SUFFIX,reddit.com,PROXY
-HOST-SUFFIX,ebay.com,PROXY
-HOST-SUFFIX,quora.com,PROXY
-HOST-SUFFIX,paypal.com,PROXY
-HOST-SUFFIX,tumblr.com,PROXY
-HOST-SUFFIX,adobe.com,PROXY
-HOST-SUFFIX,instagram.com,PROXY
-HOST-SUFFIX,weather.com,PROXY
-HOST-SUFFIX,klabgames.net,PROXY
 HOST-KEYWORD,yahoo,PROXY
+
+# > CDN
+HOST-SUFFIX,cdnjs.net,PROXY
+HOST-SUFFIX,cloudflare.com,PROXY
+HOST-SUFFIX,cloudfront.com,PROXY

@@ -5,7 +5,6 @@ HOST-SUFFIX,icloud-content.com,DIRECT
 HOST-SUFFIX,crashlytics.com,DIRECT
 USER-AGENT,com.apple.trustd*,DIRECT
 USER-AGENT,cloudd*,DIRECT
-
 # > Alibaba
 HOST-SUFFIX,taobao.com,DIRECT
 HOST-SUFFIX,tmall.com,DIRECT
@@ -15,13 +14,11 @@ HOST-SUFFIX,aliyun.com,DIRECT
 HOST-SUFFIX,aliyuncs.com,DIRECT
 HOST-SUFFIX,alibabausercontent.com,DIRECT
 HOST-KEYWORD,alicdn,DIRECT
-
 # > Baidu
 HOST-SUFFIX,baidu.com,DIRECT
 HOST-SUFFIX,bcebos.com,DIRECT
 HOST-SUFFIX,bdimg.com,DIRECT
 HOST-SUFFIX,iqiyi.com,DIRECT
-
 # > BiliBili
 HOST-SUFFIX,bilibili.com,DIRECT
 HOST-SUFFIX,biliapi.com,DIRECT
@@ -32,7 +29,6 @@ HOST-SUFFIX,hdslb.com,DIRECT
 HOST-SUFFIX,acgvideo.com,DIRECT
 HOST,upos-hz-mirrorakam.akamaized.net,DIRECT
 USER-AGENT,comic-universal*,DIRECT
-
 # > Netease
 HOST-SUFFIX,netease.im,DIRECT
 HOST-SUFFIX,netease.com,DIRECT
@@ -40,21 +36,17 @@ HOST-SUFFIX,163.com,DIRECT
 HOST-SUFFIX,127.net,DIRECT
 HOST-SUFFIX,126.net,DIRECT
 HOST-SUFFIX,lofter.com,DIRECT
-
 # > Sina
 HOST-SUFFIX,miaopai.com,DIRECT
 HOST-SUFFIX,weibo.com,DIRECT
 HOST-SUFFIX,weibocdn.com,DIRECT
-
 # > Tencent
 HOST-SUFFIX,qq.com,DIRECT
 HOST-SUFFIX,qcloud.com,DIRECT
 HOST-SUFFIX,servicewechat.com,DIRECT
-
 # > Zhihu
 HOST-SUFFIX,zhihu.com,DIRECT
 HOST-SUFFIX,zhimg.com,DIRECT
-
 # > 3rd Party Websites
 HOST-SUFFIX,cn,DIRECT
 HOST-SUFFIX,10010.com,DIRECT
@@ -80,8 +72,7 @@ IP-CIDR,127.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/16,DIRECT
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,224.0.0.0/24,DIRECT
-
 # > DNS
 IP-CIDR,119.29.29.29/32,DIRECT
-
+# > GEOIP CN
 GEOIP,CN,DIRECT
