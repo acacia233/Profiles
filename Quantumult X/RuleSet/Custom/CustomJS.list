@@ -1,0 +1,12 @@
+# > Copy
+
+hostname = ios.prod.ftl.netflix.com,api.m.jd.com,trade-acs.m.taobao.com
+
+# > Netflix Rating
+^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header nf_rating.js
+^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body nf_rating.js
+# > JD Price
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+# > TaoBao Price
+^http://.+/amdc/mobileDispatch url script-request-body tb_price.js
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body tb_price.js
