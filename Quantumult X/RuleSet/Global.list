@@ -91,3 +91,4 @@ HOST-KEYWORD,yahoo,PROXY
 HOST-SUFFIX,cdnjs.net,PROXY
 HOST-SUFFIX,cloudflare.com,PROXY
 HOST-SUFFIX,cloudfront.com,PROXY
+HOST-SUFFIX,cloudfront.net,PROXY
