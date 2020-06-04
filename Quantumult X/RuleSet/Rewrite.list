@@ -1,4 +1,4 @@
-hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban.com,app.bilibili.com,api.bilibili.com
+hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban.com,app.bilibili.com,api.bilibili.com,*googlevideo.com,youtubei.googleapis.com,*.youtube.com
 
 # > Rewrite
 
@@ -20,7 +20,7 @@ hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban
 ^http:\/\/pushservice\.10010\.com\/pushweb\/push url reject
 
 # > Douban
-^https?:\/\/api\.douban\.com\/v\d\/app_ads url reject
+^https?:\/\/api\.douban\.com\/v\d\/app_ads url reject-200
 
 # > FlipBoard China
 ^https?:\/\/fbchina\.flipchina\.cn\/v2\/ad url reject
@@ -32,12 +32,13 @@ hostname=api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn,api.douban
 # > Sparke English
 ^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad url reject
 
-# > WeChat
-^https?:\/\/pgdt\.gtimg\.cn url reject-img
-^https?:\/\/wxsnsdythumb\.wxs\.qq\.com url reject-img
-
 # > Weibo Wechat MiniApp
 ^https?:\/\/dsp\.edm\.weibo\.cn\/api\/ads url reject-img
+
+# > Youtube
+^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-img
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(ad_|log_) url reject-img
+^https?:\/\/.+\.youtube\.com\/(get_midroll|api\/stats\/(ads|.+adformat)|pagead|ptracking) url reject-img
 
 # > Zhihu
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/related\-minapps url reject-img
