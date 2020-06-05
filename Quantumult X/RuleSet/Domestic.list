@@ -5,6 +5,8 @@ HOST-SUFFIX,icloud-content.com,DIRECT
 HOST-SUFFIX,crashlytics.com,DIRECT
 USER-AGENT,com.apple.trustd*,DIRECT
 USER-AGENT,cloudd*,DIRECT
+
+HOST,time-ios.apple.com,DIRECT
 # > Alibaba
 HOST-SUFFIX,taobao.com,DIRECT
 HOST-SUFFIX,tmall.com,DIRECT
