@@ -25,8 +25,6 @@ AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUF
 URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push
 URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords
 # > Douban
-DOMAIN-SUFFIX,erebor.douban.com
-DOMAIN-SUFFIX,amonsul.douban.com
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad
 AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
@@ -56,6 +54,7 @@ DOMAIN,mtteve.beacon.qq.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
 # > ZhiHu
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides|fringe\/ad)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx))
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/xen\/market\/vip\/vip-recommand
 AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((IP-CIDR,118.89.204.198/32,no-resolve))))
 
 # > 3rd Party Websites
@@ -76,8 +75,6 @@ DOMAIN-SUFFIX,amazon-adsystem.com
 # > Baidu
 URL-REGEX,https://hmma.baidu.com/app.gif
 # > Douban
-DOMAIN-SUFFIX,erebor.douban.com
-DOMAIN-SUFFIX,amonsul.douban.com
 AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
 # > Weibo WeChat MiniApp
 URL-REGEX,https://dsp.edm.weibo.cn/api/ads

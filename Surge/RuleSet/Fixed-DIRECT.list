@@ -1,7 +1,8 @@
 # > CDN
 DOMAIN,cdn.staticfile.org
 DOMAIN,cdn.jsdelivr.net
-
 # > WeChat (Test)
 USER-AGENT,WeChat*
 USER-AGENT,MicroMessenger*
+# > App Measurement
+DOMAIN,app-measurement.com

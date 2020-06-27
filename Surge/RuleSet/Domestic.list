@@ -1,4 +1,6 @@
 # > Alibaba
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-suffix,aliapp.org
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,cainiao.com
@@ -71,6 +73,7 @@ DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,csdn.net
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,yidianzixun.com
 DOMAIN-SUFFIX,sohu.com
