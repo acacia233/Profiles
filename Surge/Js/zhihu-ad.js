@@ -17,6 +17,11 @@ body['data']['extra'].forEach((element, index)=>{
        body['data'].splice(index,1)
     }
 })
+body['data'].forEach((element, index)=>{
+     if(element['type']=="market_card"){
+       body['data'].splice(index,1)
+    }
+})
 body=JSON.stringify(body)
 }
 
