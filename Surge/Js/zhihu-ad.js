@@ -8,7 +8,7 @@ var body = $response.body;
 if (url.indexOf(p1) != -1) {
 body=JSON.parse(body)
 body['data'].forEach((element, index)=>{
-     if(element.hasOwnProperty('ad')|element.hasOwnProperty('adjson')){
+     if(element.hasOwnProperty('ad')||element.hasOwnProperty('adjson')){
        body['data'].splice(index,1)
     }
 })
