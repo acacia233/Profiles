@@ -8,22 +8,12 @@ var body = $response.body;
 if (url.indexOf(p1) != -1) {
 body=JSON.parse(body)
 body['data'].forEach((element, index)=>{
-     if(element.hasOwnProperty('ad')){
-       body['data'].splice(index,1)
-    }
-})
-body['data'].forEach((element, index)=>{
-     if(element['extra']['type']=="promote"){
+     if(element.hasOwnProperty('ad')|element.hasOwnProperty('adjson')){
        body['data'].splice(index,1)
     }
 })
 body['data'].forEach((element, index)=>{
      if(element['type']=="market_card"){
-       body['data'].splice(index,1)
-    }
-})
-body['data'].forEach((element, index)=>{
-     if(element.hasOwnProperty('adjson')){
        body['data'].splice(index,1)
     }
 })
