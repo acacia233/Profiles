@@ -1,4 +1,4 @@
-const p1 = "/topstory/recommend";
+const p1 = "/topstory/recommend?session";
 const p2 = "/search/top_search"
 const p3 = "/v4/question"
 
