@@ -13,8 +13,8 @@ body['data'].forEach((element, index)=>{
        body['data'].splice(index,1)
     }
 })
-body['data']['extra'].forEach((element, index)=>{
-     if(element['type']=="promote"){
+body['data'].forEach((element, index)=>{
+     if(element['extra']['type']=="promote"){
        body['data'].splice(index,1)
     }
 })
