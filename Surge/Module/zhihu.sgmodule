@@ -16,4 +16,4 @@ AND,((USER-AGENT,ZhihuHybrid*),(URL-REGEX,.*recommand)),REJECT
 hostname = %APPEND% www.zhihu.com, api.zhihu.com, 118.89.204.198:0
 
 [Script]
-Zhihu-Script = type = http-response, requires-body = 1, max-size = 0, pattern = https://raw.githubusercontent.com/acacia233/SimpleRule/dev/Surge/Js/zhihu-ad.js
+Zhihu-Script = type = http-response, requires-body = 1, max-size = 0, pattern = ^https?:\/\/api\.zhihu\.com\/(topstory\/recommend|search\/top_search|v4\/questions), script-path = https://raw.githubusercontent.com/acacia233/SimpleRule/dev/Surge/Js/zhihu-ad.js
