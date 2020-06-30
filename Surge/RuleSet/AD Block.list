@@ -58,7 +58,7 @@ USER-AGENT,ZHPlayr*
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides|fringe\/ad)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx))
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/xen\/market\/vip\/vip-recommand
 URL-REGEX,\/resolv\?host=(.*\.vzuu\.com|sugar\.zhihu\.com)
-AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((IP-CIDR6,::/0,no-resolve))))
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((IP-CIDR,118.89.204.198/32,no-resolve))), (NOT,((IP-CIDR6,::/0,no-resolve))))
 
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com
