@@ -8,8 +8,13 @@ var body = $response.body;
 if (url.indexOf(p1) != -1) {
 body=JSON.parse(body)
 body['data'].forEach((element, index)=>{
-     if(element.hasOwnProperty('ad')){      
-       body['data'].splice(index,1)  
+     if(element.hasOwnProperty('ad')){
+       body['data'].splice(index,1)
+    }
+})
+body['data']['extra'].forEach((element, index)=>{
+     if(element['type']=="promote"){
+       body['data'].splice(index,1)
     }
 })
 body=JSON.stringify(body)
