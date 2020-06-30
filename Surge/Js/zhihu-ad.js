@@ -1,6 +1,7 @@
 const p1 = "/topstory/recommend?session";
-const p2 = "/search/top_search"
-const p3 = "/v4/question"
+const p2 = "/topstory/recommend?action_feed";
+const p3 = "/search/top_search"
+const p4 = "/v4/question"
 
 const url = $request.url;
 var body = $response.body;
@@ -27,11 +28,21 @@ body=JSON.stringify(body)
 
 if (url.indexOf(p2) != -1) {
 body=JSON.parse(body)
-delete body['commercial_data']
+body['data'].forEach((element, index)=>{
+     if(element.hasOwnProperty('adjson')){
+       body['data'].splice(index,1)
+    }
+})
 body=JSON.stringify(body)
 }
 
 if (url.indexOf(p3) != -1) {
+body=JSON.parse(body)
+delete body['commercial_data']
+body=JSON.stringify(body)
+}
+
+if (url.indexOf(p4) != -1) {
 body=JSON.parse(body)
 delete body['ad_info']
 body=JSON.stringify(body)
