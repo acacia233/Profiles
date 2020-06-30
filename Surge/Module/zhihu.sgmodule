@@ -6,7 +6,7 @@
 DOMAIN,appcloud*.zhihu.com,REJECT
 DOMAIN,118.89.204.198,REJECT        //Use System DNS
 USER-AGENT,AVOS*,REJECT
-USER-AGRNT,ZHPlayr*,REJECT
+USER-AGENT,ZHPlayr*,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides|fringe\/ad)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx)),REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/xen\/market\/vip\/vip-recommand,REJECT
 AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((IP-CIDR6,::/0,no-resolve)))),REJECT
