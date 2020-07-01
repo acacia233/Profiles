@@ -1,0 +1,13 @@
+#!name = Douban Enhance Module
+#!desc = Remove Douban Ads and some Recommandations
+#!system = ios
+
+[Rule]
+AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29)),REJECT    //Use System DNS
+AND,((USER-AGENT,Frodo*),(URL-REGEX,.*dale_ad)),REJECT
+AND,((USER-AGENT,Frodo*),(NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com)))),REJECT
+URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
+URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad
+
+[MITM]
+hostname = %APPEND% *.doubanio.com, -frodo.douban.com, *.douban.com
