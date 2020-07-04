@@ -32,11 +32,11 @@ AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-
 URL-REGEX,https://fbchina.flipchina.cn/v2/ad
 URL-REGEX,https://cdn.flipchina.cn/uploads/flad
 # > Google
-DOMAIN,adservice.google.com
+DOMAIN-KEYWORD,adservice
 DOMAIN,ad.doubleclick.net
 DOMAIN,googleads.g.doubleclick.net
 DOMAIN,securepubads.g.doubleclick.net
-URL-REGEX,^https?\/\/pagead\d\.googlesyndication\.com
+DOMAIN,pagead*.googlesyndication.com
 URL-REGEX,^https:\/\/.*\.youtube\.com\/.*(ads|adformat|pagead)
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.*(oad|ctier)
 # > NeteaseMusic
