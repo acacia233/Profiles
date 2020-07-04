@@ -52,6 +52,11 @@ URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,mtteve.beacon.qq.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
+# > XueQiu
+AND,((URL-REGEX,\/promotion), (USER-AGENT,Xueqiu*))
+URL-REGEX,^https:\/\/api\.xueqiu\.com\/(promotion|ads)
+URL-REGEX,^https?:\/\/101\.201\.175\.228\/ads\/display
+URL-REGEX,^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(feed_)?display
 # > ZhiHu
 USER-AGENT,AVOS*
 USER-AGENT,ZHPlayr*
