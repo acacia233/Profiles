@@ -1,8 +1,8 @@
-const p1 = "/x/v2/feed/index"
-const p2 = "/x/resource/show/tab"
-const p3 = "/x/v2/view"
+const p1 = "/x/v2/feed/index?access_key"
+const p2 = "/x/resource/show/tab?access_key"
+const p3 = "/x/v2/view?access_key"
 const p4 = "/x/v2/search/square"
-const p5 = "/x/v2/account/mine"
+const p5 = "/x/v2/account/mine?access_key"
 
 const url = $request.url;
 var body = $response.body;
