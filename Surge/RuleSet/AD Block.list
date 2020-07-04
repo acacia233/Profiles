@@ -20,7 +20,7 @@ DOMAIN,hmma.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 # > BiliBili
 URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access
-AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,biliapi.net))), (NOT,((DOMAIN-SUFFIX,biliapi.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))),(NOT,((DOMAIN-KEYWORD,hpplay))))
+AND,((USER-AGENT,bili*), (NOT,((DOMAIN-KEYWORD,bili))), (NOT,((DOMAIN-SUFFIX,hdslb.com))),(NOT,((DOMAIN-KEYWORD,hpplay))))
 # > China Unicom
 URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push
 URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords

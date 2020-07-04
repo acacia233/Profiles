@@ -211,7 +211,6 @@ body['data']['sections_v2'] = [
           "display": 1,
           "id": 174,
           "title": "热门活动",
-          "red_dot": 1,
           "global_red_dot": 1,
           "uri": "https://www.bilibili.com/blackboard/x/activity-tougao-h5/all",
           "icon": "http://i0.hdslb.com/bfs/archive/7f4fa86d99bf3814bf10f8ee5d6c8c9db6e931c8.png"
