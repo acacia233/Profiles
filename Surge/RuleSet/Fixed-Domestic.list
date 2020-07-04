@@ -1,4 +1,2 @@
 # > Douban
 URL-REGEX,^https:\/\/amonsul\.douban\.com\/check2\?app
-# > Zaker
-AND,((USER-AGENT,ZAKER*),(DOMAIN-SUFFIX,admaster.com.cn))
