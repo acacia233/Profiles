@@ -111,11 +111,8 @@ body=JSON.stringify(body)
 if (url.indexOf(p3) != -1) {
 body=JSON.parse(body)
 body['data']['relates'].forEach((element, index)=> {
-   if(element['is_ad']=="true"){
-         body['data']['relates'].splice(index,1)
-    }
-   if(element['goto']!="av"){
-         body['data']['relates'].splice(index,1)
+   if(element.hasOwnProperty('is_ad')||element['goto']!="av"){
+      body['data']['relates'].splice(index,1)
     }
 })
 delete body['data']['cms']
