@@ -1,5 +1,5 @@
 #!name = Douban Enhancement Module
-#!desc = Remove Douban Ads
+#!desc = Remove Douban Ads (Test)
 #!system = ios
 
 [Rule]
