@@ -42,9 +42,12 @@ URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push,REJECT
 URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords,REJECT
 # > Douban (Ver 6.39.0)
 URL-REGEX,^https:\/\/amonsul\.douban\.com\/check2\?app,DIRECT   //Fix
-AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29),(URL-REGEX,.*dale_ad),(NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com)))),REJECT   //Use System DNS
+AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29)),REJECT    //Use System DNS
+AND,((USER-AGENT,Frodo*),(URL-REGEX,.*dale_ad)),REJECT
+AND,((USER-AGENT,Frodo*),(NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com)))),REJECT
 USER-AGENT,SafariSafeBrowsing*,REJECT
 USER-AGENT,datatransport*,REJECT
+DOMAIN,rexxar-container,REJECT
 DOMAIN,erebor.douban.com,REJECT
 DOMAIN,g.cn.miaozhen.com,REJECT
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads,REJECT
