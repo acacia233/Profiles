@@ -67,7 +67,7 @@ URL-REGEX,^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(feed_)
 AND,((USER-AGENT,ZhihuHybrid*),(URL-REGEX,.*recommand)),REJECT
 AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((IP-CIDR6,::/0,no-resolve)))),REJECT
 DOMAIN,118.89.204.198,REJECT        //Use System DNS
-DOMAIN,appcloud*.zhihu.com,REJECT
+DOMAIN,appcloud2.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
 USER-AGENT,ZHPlayr*,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/xen\/market\/vip\/vip-recommand,REJECT
