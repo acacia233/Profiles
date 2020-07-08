@@ -1,0 +1,81 @@
+#!name = Ads
+#!desc = SimpleRule Ads Module
+#!system = ios
+
+[Rule]
+# > General
+DOMAIN-KEYWORD,analytics,REJECT
+DOMAIN-KEYWORD,advertise,REJECT
+# > 3rd Party Websites
+DOMAIN,ads.yahoo.com,REJECT
+DOMAIN,m.dyhongzhi.cn,REJECT
+DOMAIN,i.luyongkang.top,REJECT
+DOMAIN,ws.tapjoyads.com,REJECT
+DOMAIN,adx-tk.rayjump.com,REJECT
+DOMAIN,sg01.rayjump.com,REJECT
+DOMAIN,cdn-adn-bd.rayjump.com,REJECT
+DOMAIN,event3alt.adcolony.com,REJECT
+DOMAIN,cdn-adn-https-baidu.rayjump.com,REJECT
+DOMAIN,rv-gateway.supersonicads.com,REJECT
+DOMAIN,outcome-ssp.supersonicads.com,REJECT
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+
+# Sort by A-Z
+# > Admaster
+DOMAIN,v.admaster.com.cn,REJECT
+DOMAIN,jice.admaster.com.cn,REJECT
+DOMAIN-SUFFIX,xdrig.com,REJECT
+# > Alibaba
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adashx.m.taobao.com,REJECT
+DOMAIN,h-adashx.ut.taobao.com,REJECT
+# > Baidu
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,hmma.baidu.com,REJECT
+DOMAIN-SUFFIX,pos.baidu.com,REJECT
+# > Bili (Ver 6.4.1-10110)
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access,REJECT
+AND,((USER-AGENT,bili*), (NOT,((DOMAIN-KEYWORD,bili))), (NOT,((DOMAIN-SUFFIX,hdslb.com))),(NOT,((DOMAIN-KEYWORD,hpplay)))),REJECT
+# > China Unicom
+URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push,REJECT
+URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords,REJECT
+# > Douban (Ver 6.39.0)
+URL-REGEX,^https:\/\/amonsul\.douban\.com\/check2\?app,DIRECT   //Fix
+AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29),(URL-REGEX,.*dale_ad),(NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com)))),REJECT   //Use System DNS
+USER-AGENT,SafariSafeBrowsing*,REJECT
+USER-AGENT,datatransport*,REJECT
+DOMAIN,erebor.douban.com,REJECT
+DOMAIN,g.cn.miaozhen.com,REJECT
+URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads,REJECT
+# > FlipBoard China
+URL-REGEX,https://fbchina.flipchina.cn/v2/ad,REJECT
+URL-REGEX,https://cdn.flipchina.cn/uploads/flad,REJECT
+# > UMeng+
+DOMAIN,ulogs.umeng.com,REJECT
+DOMAIN,ulogs.umengcloud.com,REJECT
+DOMAIN,msg.umengcloud.com,REJECT
+DOMAIN,plbslog.umeng.com,REJECT
+# > Weibo WeChat MiniApp
+URL-REGEX,https://dsp.edm.weibo.cn/api/ads,REJECT-TINYGIF
+# > XueQiu
+AND,((URL-REGEX,\/promotion), (USER-AGENT,Xueqiu*)),REJECT
+URL-REGEX,^https:\/\/api\.xueqiu\.com\/(promotion|ads),REJECT
+URL-REGEX,^https?:\/\/101\.201\.175\.228\/ads\/display,REJECT
+URL-REGEX,^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(feed_)?display,REJECT
+# > Zhihu (Ver 6.47.0)
+AND,((USER-AGENT,ZhihuHybrid*),(URL-REGEX,.*recommand)),REJECT
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((IP-CIDR6,::/0,no-resolve)))),REJECT
+DOMAIN,118.89.204.198,REJECT        //Use System DNS
+DOMAIN,appcloud*.zhihu.com,REJECT
+USER-AGENT,AVOS*,REJECT
+USER-AGENT,ZHPlayr*,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/xen\/market\/vip\/vip-recommand,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides|fringe\/ad)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx)),REJECT
+
+[MITM]
+hostname = %APPEND% *.doubanio.com, -frodo.douban.com, *.douban.com, www.zhihu.com, api.zhihu.com, 118.89.204.198:0, dsp.edm.weibo.cn, fbchina.flipchina.cn, cdn.flipchina.cn, app.bilibili.com, 182.92.251.113, 101.201.175.228, *.xueqiu.com
+
+[Script]
+Bili-Script = type = http-response,requires-body=1, max-size=0, pattern=^https?:\/\/app\.bilibili\.com\/x(\/resource\/show\/tab|\/v2(\/feed\/index|\/view|\/search\/square|\/account\/mine)),script-path=https://raw.githubusercontent.com/acacia233/SimpleRule/dev/Surge/Js/bilibili-ad.js
+Zhihu-Script = type = http-response,requires-body=1, max-size=0, pattern=^https?:\/\/api\.zhihu\.com\/(topstory\/recommend|search\/top_search|v4\/questions), script-path=https://raw.githubusercontent.com/acacia233/SimpleRule/dev/Surge/Js/zhihu-ad.js
