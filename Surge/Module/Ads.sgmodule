@@ -6,6 +6,8 @@
 # > General
 DOMAIN-KEYWORD,analytics,REJECT
 DOMAIN-KEYWORD,advertise,REJECT
+DOMAIN,app-measurement.com,REJECT
+DOMAIN,sessions.bugsnag.com,REJECT
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com,REJECT
 DOMAIN,m.dyhongzhi.cn,REJECT
@@ -49,6 +51,7 @@ USER-AGENT,SafariSafeBrowsing*,REJECT
 USER-AGENT,datatransport*,REJECT
 DOMAIN,rexxar-container,REJECT
 DOMAIN,erebor.douban.com,REJECT
+DOMAIN,qnmob3.doubanio.com,REJECT   //Test
 DOMAIN,g.cn.miaozhen.com,REJECT
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads,REJECT
 # > FlipBoard China

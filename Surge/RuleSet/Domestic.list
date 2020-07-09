@@ -53,6 +53,8 @@ DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,zdmimg.com
 # > Tencent
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,txfund.com
+DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,gtimg.com
@@ -86,7 +88,6 @@ DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,17wanxiao.com
 DOMAIN-KEYWORD,maimemo
-USER-AGENT,ZAKER*
 
 # > GEOIP CN
 GEOIP,CN
