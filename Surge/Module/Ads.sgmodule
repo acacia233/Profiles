@@ -7,7 +7,6 @@
 DOMAIN-KEYWORD,analytics,REJECT
 DOMAIN-KEYWORD,advertise,REJECT
 DOMAIN,app-measurement.com,REJECT
-DOMAIN,sessions.bugsnag.com,REJECT
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com,REJECT
 DOMAIN,m.dyhongzhi.cn,REJECT
@@ -15,11 +14,12 @@ DOMAIN,i.luyongkang.top,REJECT
 DOMAIN,ws.tapjoyads.com,REJECT
 DOMAIN,adx-tk.rayjump.com,REJECT
 DOMAIN,sg01.rayjump.com,REJECT
+DOMAIN,cdn-adn-https-baidu.rayjump.com,REJECT
 DOMAIN,cdn-adn-bd.rayjump.com,REJECT
 DOMAIN,event3alt.adcolony.com,REJECT
-DOMAIN,cdn-adn-https-baidu.rayjump.com,REJECT
 DOMAIN,rv-gateway.supersonicads.com,REJECT
 DOMAIN,outcome-ssp.supersonicads.com,REJECT
+DOMAIN,firebase-settings.crashlytics.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 
 # Sort by A-Z
@@ -43,7 +43,10 @@ AND,((USER-AGENT,bili*), (NOT,((DOMAIN-KEYWORD,bili))), (NOT,((DOMAIN-SUFFIX,hds
 URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push,REJECT
 URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords,REJECT
 # > Douban (Ver 6.39.0)
-URL-REGEX,^https:\/\/amonsul\.douban\.com\/check2\?app,DIRECT   //Fix
+#URL-REGEX,^https:\/\/amonsul\.douban\.com\/check2\?app,DIRECT   //Fix
+URL-REGEX,/view/photo/large/public/,DIRECT    //Fixed
+URL-REGEX,/view/group_topic/raw/public/,DIRECT    //Fixed
+URL-REGEX,^https:\/\/img*\.doubanio\.com\/dae\/staticng\/search_static\/rexxar_shared,REJECT
 AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29)),REJECT    //Use System DNS
 AND,((USER-AGENT,Frodo*),(URL-REGEX,.*dale_ad)),REJECT
 AND,((USER-AGENT,Frodo*),(NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com)))),REJECT
