@@ -47,6 +47,7 @@ URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords,REJ
 URL-REGEX,/view/photo/large/public/,DIRECT    //Fixed
 URL-REGEX,/view/group_topic/raw/public/,DIRECT    //Fixed
 URL-REGEX,^https:\/\/img*\.doubanio\.com\/dae\/staticng\/search_static\/rexxar_shared,REJECT
+AND,((USER-AGENT,Frodo*),(DOMAIN,frodo.douban.com)),DIRECT
 AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29)),REJECT    //Use System DNS
 AND,((USER-AGENT,Frodo*),(URL-REGEX,.*dale_ad)),REJECT
 AND,((USER-AGENT,Frodo*),(NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com)))),REJECT
