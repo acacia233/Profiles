@@ -8,31 +8,29 @@ DOMAIN,plbslog.umeng.com,reject
 DOMAIN,v.admaster.com.cn,reject
 DOMAIN,jice.admaster.com.cn,reject
 
+# -------------------- #
+# > A-Z
+# > Alibaba
+DOMAIN,adashxgc.ut.taobao.com,reject
+DOMAIN,adashbc.ut.taobao.com,reject
+DOMAIN,adashx.m.taobao.com,reject
+DOMAIN,h-adashx.ut.taobao.com,reject
 # > Baidu
 DOMAIN,hm.baidu.com,reject
 DOMAIN,hmma.baidu.com,reject
 DOMAIN-SUFFIX,pos.baidu.com,reject
-
+# > Google Ad
+DOMAIN,googleads.g.doubleclick.net,reject
+# > NeteaseMusic
+DOMAIN,iadmusicmat.music.126.net,reject
+DOMAIN,iadmat.nosdn.127.net,reject
+DOMAIN,admusicpic.music.126.net,reject
 # > Tencent
 DOMAIN,adsmind.gdtimg.com,reject
 DOMAIN,mtteve.beacon.qq.com,reject
 DOMAIN,adsmind.apdcdn.tc.qq.com,reject
 DOMAIN,pgdt.gtimg.cn,reject
 DOMAIN,wxsnsdythumb.wxs.qq.com,reject
-
-# > Alibaba
-DOMAIN,adashxgc.ut.taobao.com,reject
-DOMAIN,adashbc.ut.taobao.com,reject
-DOMAIN,adashx.m.taobao.com,reject
-DOMAIN,h-adashx.ut.taobao.com,reject
-
-# > Google Ad
-DOMAIN,googleads.g.doubleclick.net,reject
-
-# > NeteaseMusic
-DOMAIN,iadmusicmat.music.126.net,reject
-DOMAIN,iadmat.nosdn.127.net,reject
-DOMAIN,admusicpic.music.126.net,reject
 
 # > 3rd Party Websites
 DOMAIN,ads.yahoo.com,reject

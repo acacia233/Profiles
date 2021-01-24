@@ -1,31 +1,94 @@
-DOMAIN-KEYWORD,google,Global
-DOMAIN-KEYWORD,yahoo,Global
-DOMAIN-KEYWORD,amazon,Global
-DOMAIN-SUFFIX,wikimedia.org,Global
-DOMAIN-SUFFIX,wikipedia.org,Global
-DOMAIN-SUFFIX,ampproject.org,Global
-DOMAIN-SUFFIX,facebook.com,Global
-DOMAIN-SUFFIX,youtube.com,Global
-DOMAIN-SUFFIX,youtu.be,Global
-DOMAIN-SUFFIX,twitter.com,Global
-DOMAIN-SUFFIX,pornhub.com,Global
-DOMAIN-SUFFIX,xvideos.com,Global
-DOMAIN-SUFFIX,wikipedia.com,Global
-DOMAIN-SUFFIX,yandex.ru,Global
-DOMAIN-SUFFIX,reddit.com,Global
-DOMAIN-SUFFIX,ebay.com,Global
-DOMAIN-SUFFIX,quora.com,Global
-DOMAIN-SUFFIX,github.com,Global
-DOMAIN-SUFFIX,githubusercontent.com,Global
-DOMAIN-SUFFIX,paypal.com,Global
-DOMAIN-SUFFIX,tumblr.com,Global
-DOMAIN-SUFFIX,adobe.com,Global
-DOMAIN-SUFFIX,instagram.com,Global
-DOMAIN-SUFFIX,xnxx.com,Global
-DOMAIN-SUFFIX,live.com,Global
-DOMAIN-SUFFIX,msn.com,Global
-DOMAIN-SUFFIX,microsoft.com,Global
-DOMAIN-SUFFIX,office.com,Global
-DOMAIN-SUFFIX,cloudflare.com,Global
-DOMAIN-SUFFIX,cloudfront.com,Global
-DOMAIN-SUFFIX,klabgames.net,Global
+# > Amazon
+HOST-SUFFIX,amazon.com,Global
+HOST-SUFFIX,amazonaws.com,Global
+HOST-SUFFIX,media-amazon.com,Global
+HOST-KEYWORD,amazon,Global
+# > Google
+HOST-SUFFIX,google.com,Global
+HOST-SUFFIX,googleapis.com,Global
+HOST-SUFFIX,gstatic.com,Global
+HOST-SUFFIX,ampproject.org,Global
+HOST-SUFFIX,amp.dev,Global
+HOST-SUFFIX,youtube.com,Global
+HOST-SUFFIX,youtu.be,Global
+HOST-SUFFIX,ytimg.com,Global
+HOST-SUFFIX,googlevideo.com,Global
+HOST-SUFFIX,app-measurement.com,Global
+HOST-KEYWORD,google,Global
+# > Microsoft
+HOST-SUFFIX,bing.com,Global
+HOST-SUFFIX,onestore.ms,Global
+HOST-SUFFIX,live.com,Global
+HOST-SUFFIX,live.net,Global
+HOST-SUFFIX,msn.com,Global
+HOST-SUFFIX,msedge.net,Global
+HOST-SUFFIX,microsoft.com,Global
+HOST-SUFFIX,onedrive.com,Global
+HOST-SUFFIX,1drv.com,Global
+HOST-SUFFIX,hockeyapp.net,Global
+HOST-SUFFIX,appcenter.ms,Global
+HOST-SUFFIX,windows.net,Global
+HOST-SUFFIX,windowsupdate.com,Global
+HOST-SUFFIX,visualstudio.com,Global
+HOST-SUFFIX,office.com,Global
+HOST-SUFFIX,office.net,Global
+HOST-SUFFIX,hotmail.com,Global
+HOST-SUFFIX,microsofttranslator.net,Global
+HOST-SUFFIX,azure.net,Global
+HOST-SUFFIX,azureedge.net,Global
+HOST-SUFFIX,aspnetcdn.com,Global
+HOST-SUFFIX,github.com,Global
+HOST-SUFFIX,githubassets.com,Global
+HOST-SUFFIX,githubusercontent.com,Global
+# > Pornhub
+HOST-SUFFIX,pornhub.com,Global
+HOST-SUFFIX,pornhubpremium.com,Global
+HOST-SUFFIX,phncdn.com,Global
+HOST-SUFFIX,naiadsystems.com,Global
+# > Telegram
+HOST-SUFFIX,t.me,Global
+HOST-SUFFIX,telegra.ph,Global
+HOST-SUFFIX,telegram.me,Global
+HOST-SUFFIX,telegram.org,Global
+HOST-SUFFIX,tdesktop.com,Global
+HOST-SUFFIX,contest.com,Global
+# > Twitch
+HOST-SUFFIX,twitch.tv,Global
+HOST-SUFFIX,ext-twitch.tv,Global
+HOST-SUFFIX,twitchcdn.net,Global
+HOST-SUFFIX,ttvnw.net,Global
+HOST-SUFFIX,jtvnw.net,Global
+# > Wikipedia
+HOST-SUFFIX,wikimedia.org,Global
+HOST-SUFFIX,wikipedia.org,Global
+HOST-SUFFIX,wikipedia.com,Global
+# > Facebook
+HOST-SUFFIX,facebook.com,Global
+HOST-SUFFIX,facebook.net,Global
+HOST-SUFFIX,fbcdn.net,Global
+# > Twitter
+HOST-SUFFIX,twitter.com,Global
+HOST-SUFFIX,twimg.com,Global
+
+# > CDN
+HOST,libs.cdnjs.net,Global
+HOST-SUFFIX,akadns.net,Global
+# > 3rd Party Websites
+HOST-SUFFIX,xnxx.com,Global
+HOST-SUFFIX,xvideos.com,Global
+HOST-SUFFIX,he.net,Global
+HOST-SUFFIX,letsencrypt.org,Global
+HOST-SUFFIX,gameloft.com,Global
+HOST-SUFFIX,yandex.ru,Global
+HOST-SUFFIX,reddit.com,Global
+HOST-SUFFIX,ebay.com,Global
+HOST-SUFFIX,quora.com,Global
+HOST-SUFFIX,paypal.com,Global
+HOST-SUFFIX,tumblr.com,Global
+HOST-SUFFIX,adobe.com,Global
+HOST-SUFFIX,instagram.com,Global
+HOST-SUFFIX,cloudflare.com,Global
+HOST-SUFFIX,cloudfront.com,Global
+HOST-SUFFIX,weather.com,Global
+HOST-SUFFIX,klabgames.net,Global
+HOST-KEYWORD,yahoo,Global

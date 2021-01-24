@@ -1,2 +1,3 @@
-# > bilibili HK/TW/MO Unblock (MITM api.bilibili.com)
+# > bilibili HK/TW/MO Unblock
+# - api.bilibili.com
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/(view|player)

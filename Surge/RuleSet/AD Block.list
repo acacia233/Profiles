@@ -1,13 +1,14 @@
 # > Analytics
-DOMAIN-KEYWORD,analytics
-DOMAIN-KEYWORD,advertise
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
 DOMAIN,msg.umengcloud.com
 DOMAIN,plbslog.umeng.com
 DOMAIN,v.admaster.com.cn
 DOMAIN,jice.admaster.com.cn
+DOMAIN,applog.uc.cn
 DOMAIN-SUFFIX,xdrig.com
+DOMAIN-KEYWORD,analytics
+DOMAIN-KEYWORD,advertise
 
 # > Alibaba
 DOMAIN,adashxgc.ut.taobao.com
@@ -25,6 +26,7 @@ AND,((USER-AGENT,bili*), (NOT,((DOMAIN-KEYWORD,bili))), (NOT,((DOMAIN-SUFFIX,hds
 URL-REGEX,^http:\/\/pushservice\.10010\.com\/pushweb\/push
 URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords
 # > Douban
+DOMAIN,119.29.29.29
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad
 AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
@@ -36,6 +38,7 @@ DOMAIN-KEYWORD,adservice
 DOMAIN,ad.doubleclick.net
 DOMAIN,googleads.g.doubleclick.net
 DOMAIN,securepubads.g.doubleclick.net
+DOMAIN,firebaselogging-pa.googleapis.com
 DOMAIN,pagead*.googlesyndication.com
 URL-REGEX,^https:\/\/.*\.youtube\.com\/.*(ads|adformat|pagead)
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.*(oad|ctier)
@@ -46,18 +49,27 @@ DOMAIN,admusicpic.music.126.net
 URL-REGEX,\/eapi\/(ad|banner|homepage\/show)
 # > QingMang
 URL-REGEX,^http:\/\/api\.qingmang\.me\/v1\/log\.send
+# > Sina
+DOMAIN-SUFFIX,beacon.sina.com.cn
+DOMAIN,adimg.uve.weibo.com
+DOMAIN,adimg.vue.weibo.com
+DOMAIN,u1.img.mobile.sina.cn
 # > Sparke English
+# - api2.sparke.cn
 URL-REGEX,^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad
 # > Tencent
 DOMAIN,adsmind.gdtimg.com
+DOMAIN,pgdt.ugdtimg.com
 DOMAIN,mtteve.beacon.qq.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
 # > XueQiu
+# - api.xueqiu.com,101.201.175.228,182.92.251.113
 AND,((URL-REGEX,\/promotion), (USER-AGENT,Xueqiu*))
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/(promotion|ads)
 URL-REGEX,^https?:\/\/101\.201\.175\.228\/ads\/display
 URL-REGEX,^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(feed_)?display
 # > ZhiHu
+# - api.zhihu.com,www.zhihu.com
 USER-AGENT,AVOS*
 USER-AGENT,ZHPlayr*
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides|fringe\/ad)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx))
@@ -93,6 +105,6 @@ URL-REGEX,https://api.zhihu.com/wx-minapp-push/related-minapps
 URL-REGEX,https://api.zhihu.com/wx-minapp-push/hot_recommendation/ad
 
 # > Test
-DOMAIN-SUFFIX,sdk.iad-01.braze.com
-DOMAIN-SUFFIX,mmstat.com
-DOMAIN-SUFFIX,tanx.com
+#DOMAIN-SUFFIX,sdk.iad-01.braze.com
+#DOMAIN-SUFFIX,mmstat.com
+#DOMAIN-SUFFIX,tanx.com

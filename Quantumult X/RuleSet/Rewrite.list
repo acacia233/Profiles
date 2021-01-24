@@ -1,9 +1,15 @@
-hostname=*.douban.com,api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn
+hostname=api.douban.com,erebor.douban.com,api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.cn
 
-# > Google Search
+# > Google Search 302
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 
+# -------------------- #
+
+# > Ad
+# > A-Z
+
 # > Douban
+# - api.douban.com,erebor.douban.com
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads url reject
 ^https?:\/\/erebor\.douban\.com\/count\/\?ad url reject
 
@@ -12,12 +18,15 @@ hostname=*.douban.com,api2.sparke.cn,api.zhihu.com,dsp.edm.weibo.cn,*.flipchina.
 ^https?:\/\/api\.zhihu\.com\/wx\-minapp\-push\/hot\_recommendation\/ad url reject-img
 
 # > Weibo Wechat MiniApp
+# - dsp.edm.weibo.cn
 ^https?:\/\/dsp\.edm\.weibo\.cn\/api\/ads url reject-img
 
 # > Sparke English
+# - api2.sparke.cn
 ^https?:\/\/api2\.sparke\.cn\/admodel\/list\?ad url reject
 
 # > FlipBoard China
+# - fbchina.flipchina.cn,cdn.flipchina.cn
 ^https?:\/\/fbchina\.flipchina\.cn\/v2\/ad url reject
 ^https?:\/\/cdn\.flipchina\.cn\/uploads\/flad url reject
 
