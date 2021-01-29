@@ -65,6 +65,8 @@ DOMAIN,adsmind.apdcdn.tc.qq.com
 # > XueQiu
 # - api.xueqiu.com,101.201.175.228,182.92.251.113
 AND,((URL-REGEX,\/promotion), (USER-AGENT,Xueqiu*))
+AND,((URL-REGEX,\/cubes\/discover\/editorial\/list), (USER-AGENT,Xueqiu*))
+AND,((URL-REGEX,\/brand\/search), (USER-AGENT,Snowball*))
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/(promotion|ads)
 URL-REGEX,^https?:\/\/101\.201\.175\.228\/ads\/display
 URL-REGEX,^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(feed_)?display
