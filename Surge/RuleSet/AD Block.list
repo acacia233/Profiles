@@ -19,6 +19,8 @@ DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
+# > Bank of China
+AND,((DOMAIN-SUFFIX,qq.com), (USER-AGENT,BOCMBCI*))
 # > BiliBili
 URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\?access
 AND,((USER-AGENT,bili*), (NOT,((DOMAIN-KEYWORD,bili))), (NOT,((DOMAIN-SUFFIX,hdslb.com))),(NOT,((DOMAIN-KEYWORD,hpplay))))
@@ -29,7 +31,8 @@ URL-REGEX,^http:\/\/smartad\.10010\.com\/msupport\/count\/businessLogRecords
 DOMAIN,119.29.29.29
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads
 URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad
-AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
+AND,((USER-AGENT,Frodo*), (NOT,((DOMAIN,frodo.douban.com))),(NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
+AND,((USER-AGENT,Frodo*), (URL-REGEX,.*(dale_ad|dae)))
 # > FlipBoard China
 URL-REGEX,https://fbchina.flipchina.cn/v2/ad
 URL-REGEX,https://cdn.flipchina.cn/uploads/flad
@@ -74,8 +77,10 @@ URL-REGEX,^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(feed_)
 # - api.zhihu.com,www.zhihu.com
 USER-AGENT,AVOS*
 USER-AGENT,ZHPlayr*
+DOMAIN,118.89.204.198
+DOMAIN,2402:4e00:1200:ed00:0:9089:6dac:96b6
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/((drama|rhea\/qa\_ad\_card|me\/guides|fringe\/ad)|.*(recommendations|commercial|featured-comment-ad|ad-style-service|adx))
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/xen\/market\/vip\/vip-recommand
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/(xen\/market\/vip\/vip-recommand|.*(recommendations))
 URL-REGEX,\/resolv\?host=(.*\.vzuu\.com|sugar\.zhihu\.com)
 AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((IP-CIDR,118.89.204.198/32,no-resolve))), (NOT,((IP-CIDR6,::/0,no-resolve))))
 
