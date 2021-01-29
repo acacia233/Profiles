@@ -101,8 +101,6 @@ DOMAIN-SUFFIX,amazon-adsystem.com
 # > Special AD's Part (Need REJECT-TINYGIF)
 # > Baidu
 URL-REGEX,https://hmma.baidu.com/app.gif
-# > Douban
-# AND,((USER-AGENT,Frodo*), (NOT,((IP-CIDR,0.0.0.0/0,no-resolve))), (NOT,((DOMAIN-SUFFIX,doubanio.com))),(NOT,((DOMAIN-SUFFIX,app-measurement.com))))
 # > Weibo WeChat MiniApp
 URL-REGEX,https://dsp.edm.weibo.cn/api/ads
 # > Zhihu WeChat MiniApp
