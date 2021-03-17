@@ -1,6 +1,7 @@
 const p1 = "/topstory/recommend";
 const p2 = "/search/top_search";
 const p3 = "/v4/question";
+const p4 = "/comment_v5/answers"
 
 const url = $request.url;
 var body = $response.body;
@@ -27,6 +28,12 @@ body=JSON.stringify(body)
 }
 
 if (url.indexOf(p3) != -1) {
+body=JSON.parse(body)
+delete body['ad_info']
+body=JSON.stringify(body)
+}
+
+if (url.indexOf(p4) != -1) {
 body=JSON.parse(body)
 delete body['ad_info']
 body=JSON.stringify(body)
