@@ -45,6 +45,10 @@ DOMAIN,firebaselogging-pa.googleapis.com
 DOMAIN,pagead*.googlesyndication.com
 URL-REGEX,^https:\/\/.*\.youtube\.com\/.*(ads|adformat|pagead)
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.*(oad|ctier)
+# > KFC
+DOMAIN,dynamicad.kfc.com.cn
+# > MSMDS
+AND,((URL-REGEX,\/img\/ad.union.api\/),(USER-AGENT,MsmdsApp*))
 # > NeteaseMusic
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmat.nosdn.127.net
@@ -65,6 +69,14 @@ DOMAIN,adsmind.gdtimg.com
 DOMAIN,pgdt.ugdtimg.com
 DOMAIN,mtteve.beacon.qq.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,ad.tencentmusic.com
+DOMAIN,oth.eve.mdt.qq.com
+DOMAIN,ith.str.mdt.qq.com
+DOMAIN,btrace.qq.com
+DOMAIN,mtrace.qq.com
+DOMAIN,h.trace.qq.com
+DOMAIN,aedns.weixin.qq.com
+DOMAIN,ios.video.mpush.qq.com
 # > XueQiu
 # - api.xueqiu.com,101.201.175.228,182.92.251.113
 AND,((URL-REGEX,\/promotion), (USER-AGENT,Xueqiu*))
