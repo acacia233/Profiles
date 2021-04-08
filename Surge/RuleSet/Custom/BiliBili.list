@@ -1,3 +1,6 @@
 # > bilibili HK/TW/MO Unblock
 # - api.bilibili.com
-URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/(view|player)
+#URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/(view|player) - Decrepit
+
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+USER-AGENT,bili-universal*
