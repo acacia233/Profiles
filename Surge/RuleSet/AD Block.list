@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,xdrig.com
 DOMAIN-KEYWORD,analytics
 DOMAIN-KEYWORD,advertise
 
+# > 10010
+DOMAIN,unilog.wostore.cn
 # > Alibaba
 DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,adashbc.ut.taobao.com
@@ -18,6 +20,7 @@ DOMAIN,h-adashx.ut.taobao.com
 # > Baidu
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
+DOMAIN,afd.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 # > Bank of China
 AND,((DOMAIN-SUFFIX,qq.com), (USER-AGENT,BOCMBCI*))
@@ -60,6 +63,8 @@ URL-REGEX,^http:\/\/api\.qingmang\.me\/v1\/log\.send
 DOMAIN-SUFFIX,beacon.sina.com.cn
 DOMAIN,adimg.uve.weibo.com
 DOMAIN,adimg.vue.weibo.com
+DOMAIN,sax.sina.com.cn
+DOMAIN,saxn.sina.com.cn
 DOMAIN,u1.img.mobile.sina.cn
 # > Sparke English
 # - api2.sparke.cn
@@ -75,6 +80,7 @@ DOMAIN,ith.str.mdt.qq.com
 DOMAIN,btrace.qq.com
 DOMAIN,mtrace.qq.com
 DOMAIN,h.trace.qq.com
+DOMAIN,sdk.e.qq.com
 DOMAIN,aedns.weixin.qq.com
 DOMAIN,ios.video.mpush.qq.com
 # > XueQiu
