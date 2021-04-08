@@ -6,5 +6,5 @@
 force-http-engine-hosts = %APPEND% 119.147.228.*, 183.2.106.*,183.2.206.*,183.47.253.*, 113.96.101.*, 113.96.98.*, 121.15.220.*, 121.9.201.*, 113.113.83.*, 113.105.141.*, btrace.qq.com, *.trace.qq.com
 
 [Rule]
-URL-REGEX,.*(fmt=(s|f)hd),REJECT
-URL-REGEX,.*(fmt%3D(s|f)hd),REJECT
+URL-REGEX,fmt=(s|f)hd,REJECT
+URL-REGEX,fmt%3D(s|f)hd,REJECT
